@@ -1,20 +1,4 @@
-#John O'Neill Iris formatting file 24/03/18
-
-#'''Iris data set prints the four numerical values on each 
-#row in a nice format. That is, on the screen should
-# be printed the petal length, petal width, sepal length 
-# and sepal width, and these values should have the
-# decimal places aligned, with a space between the columns
-
-
-
-# the version that worked after 2 weeks!!
-# Referenced numerous sites/tutorials 
-# https://www.youtube.com/watch?v=Xi52tx6phRU Referenced in relation to opening files in CSV and formatting "CSV Files in Python || Python Tutorial || Learn Python Programming"
-# http://www.pythonforbeginners.com/dictionary/python-split
-# https://www.youtube.com/watch?v=vTX3IwquFkc (String Format Tutorial)
-
-
+#John O'Neill Iris formatting file 16/04/18
 
 #version 1
 
