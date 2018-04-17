@@ -1,5 +1,8 @@
 
 
+
+
+
 # IrisProject2018
 Programming and Scripting Module Project
 
@@ -22,5 +25,13 @@ Investigations into Data Set
 Document how to run the Python code used to investigate the data set
 Clearly document what the code does
 
+Background Information.
 
 
+References:
+Examples and tutorials on how to create histograms and Scatterplots. Based on researching the Data Set the scattergram type graphs are effective illustrations for the 3 different Species of Iris speciments.
+
+1 https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
+
+Background on Iris Data Set
+https://en.wikipedia.org/wiki/Iris_flower_data_set
