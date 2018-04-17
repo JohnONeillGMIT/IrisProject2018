@@ -5,6 +5,8 @@
 #Calculating the mean of Col 1
 
 import numpy
+import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
+
 
 #read in the Iris file
 
