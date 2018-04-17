@@ -8,9 +8,10 @@ import numpy
 
 #read in the Iris file
 
-data = numpy.genfromtxt('Iris.csv', delimiter= ',')
+data = numpy.genfromtxt('Iris.csv', delimiter= ',',dtype=float)
 
-firstcol = data[:,0]
-meanfirstcol =numpy.mean(data[:0])
+#firstcol = data[:,0]
+#meanfirstcol =numpy.nanmean(data[:,0])
+
 
 
