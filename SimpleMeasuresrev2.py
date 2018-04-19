@@ -5,6 +5,9 @@
 #Calculating the mean of Col 1
 
 import numpy
+from beautifultable import BeautifulTable
+
+
 
 #read in the Iris file
 
@@ -31,20 +34,33 @@ minfourthcol =numpy.nanmin(data[:,3])
 maxfourthcol =numpy.nanmax(data[:,3])
 
 
-print("Average of the First column is:", meanfirstcol)
-print("Min of the First column is:", minfirstcol)
-print("Max of the First column is:", maxfirstcol)
+#trying to add a table
 
-print("Average of the Second column is:", meanSecondcol)
-print("Min of the Second column is:", minSecondcol)
-print("Max of the Second column is:", maxSecondcol)
+from beautifultable import BeautifulTable
+table = BeautifulTable()
+table.column_headers = ["Name", "Mean", "Min","Max"]
+table.append_row(["SL", meanfirstcol, minfirstcol, maxfirstcol])
+table.append_row(["SW", meanSecondcol, minSecondcol, maxSecondcol])
+table.append_row(["PL", meanthirdcol, minthirdcol, maxthirdcol])
+table.append_row(["PR", meanfourthcol, minfourthcol, maxfourthcol])
+print(table)
 
-print("Average of the Third column is:", meanthirdcol)
-print("Min of the Third column is:", minthirdcol)
-print("Max of the Third column is:", maxthirdcol)
 
-print("Average of the First column is:", meanfourthcol)
-print("Min of the First column is:", minfourthcol)
-print("Max of the First column is:",maxfourthcol)
+
+#print("Average of the First column is:", meanfirstcol)
+#print("Min of the First column is:", minfirstcol)
+#print("Max of the First column is:", maxfirstcol)
+
+#print("Average of the Second column is:", meanSecondcol)
+#print("Min of the Second column is:", minSecondcol)
+#print("Max of the Second column is:", maxSecondcol)
+
+#print("Average of the Third column is:", meanthirdcol)
+#print("Min of the Third column is:", minthirdcol)
+#print("Max of the Third column is:", maxthirdcol)
+
+#print("Average of the First column is:", meanfourthcol)
+#print("Min of the First column is:", minfourthcol)
+#print("Max of the First column is:",maxfourthcol)
 
 #https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5&_escaped_fragment_=#next

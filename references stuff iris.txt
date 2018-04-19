@@ -1,0 +1,19 @@
+
+
+19/04/18
+Installed a pip to create nice table....
+
+https://pypi.org/project/beautifultable/... reference
+
+
+Windows PowerShell
+Copyright (C) 2016 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\john_j_o'neill\Desktop> pip install beautifultable
+Collecting beautifultable
+  Downloading https://files.pythonhosted.org/packages/6e/2a/7cc10008789d79b3bf30a09c9598be211008b76002ad066d7bfbde98474a/beautifultable-0.5.0-py2.py3-none-any.whl
+Installing collected packages: beautifultable
+Successfully installed beautifultable-0.5.0
+You are using pip version 9.0.1, however version 10.0.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+PS C:\Users\john_j_o'neill\Desktop>
