@@ -34,7 +34,7 @@ minfourthcol =numpy.nanmin(data[:,3])
 maxfourthcol =numpy.nanmax(data[:,3])
 
 
-#trying to add a table
+# Installed a pip import to display the output data in a "nicer"
 
 from beautifultable import BeautifulTable
 table = BeautifulTable()
