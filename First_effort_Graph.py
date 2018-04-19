@@ -5,6 +5,7 @@
 #Calculating the mean of Col 1
 
 import numpy
+import pandas as pd #https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
 import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
 
 
