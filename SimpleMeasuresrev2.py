@@ -40,6 +40,8 @@ from beautifultable import BeautifulTable
 table = BeautifulTable()
 table.column_headers = ["Name", "Mean", "Min","Max"]
 table.append_row(["SL", meanfirstcol, minfirstcol, maxfirstcol])
+#append adds to the file as opposed to overwriting
+# Ref: https://www.pythonprogramming.net/writing-file-python-3-basics/
 table.append_row(["SW", meanSecondcol, minSecondcol, maxSecondcol])
 table.append_row(["PL", meanthirdcol, minthirdcol, maxthirdcol])
 table.append_row(["PR", meanfourthcol, minfourthcol, maxfourthcol])
