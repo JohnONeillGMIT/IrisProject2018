@@ -19,7 +19,13 @@ import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-ir
 #%matplotlib inline
 
 
-data = pd.read_csv('virginica.csv')
+data = pd.read_csv('virginica.csv') 
+#Learning for today!!: Having a file cal;led pandas.py in the directory causes and Attribute error!
+#https://stackoverflow.com/questions/43696005/attributeerror-module-pandas-has-no-attribute-read-csv-python3-5
+
+df  = pd.read_csv("iris.csv")
+df.plot()  # plots all columns against index
+df.plot(kind='scatter',x='x',y='y') # scatter plot
 
 #read in the Iris file
 

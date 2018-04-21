@@ -46,6 +46,15 @@ table.append_row(["SW", meanSecondcol, minSecondcol, maxSecondcol])
 table.append_row(["PL", meanthirdcol, minthirdcol, maxthirdcol])
 table.append_row(["PR", meanfourthcol, minfourthcol, maxfourthcol])
 print(table)
+#f = open('Output_of_SimpleMeasure_code.txt','a')
+#f.write(str(table)
+
+with open('Output_of_SimpleMeasure_code.txt', 'w') as w:
+   w.write(str(table))
+
+#appendfile= open ('Output_of_SimpleMeasure_code.txt','a')
+#appendfile.write(table2)
+#appendfile.close()
 
 # a learning for me... when you import a module eg
 
