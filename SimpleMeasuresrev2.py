@@ -34,7 +34,7 @@ minfourthcol =numpy.nanmin(data[:,3])
 maxfourthcol =numpy.nanmax(data[:,3])
 
 
-# Installed a pip import to display the output data in a "nicer"
+# Installed a pip import 'BeautifulTable' module to display the output data in a "nicer"
 
 from beautifultable import BeautifulTable
 table = BeautifulTable()
@@ -47,6 +47,7 @@ table.append_row(["PL", meanthirdcol, minthirdcol, maxthirdcol])
 table.append_row(["PR", meanfourthcol, minfourthcol, maxfourthcol])
 print(table)
 
+# a learning for me... when you import a module eg
 
 
 #print("Average of the First column is:", meanfirstcol)

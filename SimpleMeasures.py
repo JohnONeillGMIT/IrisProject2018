@@ -32,12 +32,35 @@ minfourthcol =numpy.nanmin(data[:,3])
 maxfourthcol =numpy.nanmax(data[:,3])
 
 
+
+data2 = numpy.genfromtxt('virginica.csv', dtype=float, delimiter= ',') #pulls in the iris.csv file, delimited by ','
+
+firstcolv = data2[:,0] #assigns the first column of data from the csv file
+meanfirstcolv =numpy.nanmean(data2[:,0]) #added nan so that columns with no value #n/a wont drive an error
+minfirstcolv =numpy.nanmin(data2[:,0])
+maxfirstcolv =numpy.nanmax(data2[:,0])
+
+Secondcolv = data2[:,1] #assigns the first column of data from the csv file
+meanSecondcolv =numpy.nanmean(data2[:,1]) #added nan so that columns with no value #n/a wont drive an error
+minSecondcolv =numpy.nanmin(data2[:,1])
+maxSecondcolv =numpy.nanmax(data2[:,1])
+
+thirdcolv = data2[:,2] #assigns the first column of data from the csv file
+meanthirdcolv =numpy.nanmean(data2[:,2]) #added nan so that columns with no value #n/a wont drive an error
+minthirdcolv =numpy.nanmin(data2[:,2])
+maxthirdcolv =numpy.nanmax(data2[:,2])
+
+fourthcolv = data[:,3] #assigns the first column of data from the csv file
+meanfourthcolv =numpy.nanmean(data2[:,3]) #added nan so that columns with no value #n/a wont drive an error
+minfourthcolv =numpy.nanmin(data2[:,3])
+maxfourthcolv =numpy.nanmax(data2[:,3])
 # 19/04/18 Installed a pip import to display the output data in a "nicer" tabular format
 # https://stackoverflow.com/questions/8356501/python-format-tabular-output
 # https://pypi.org/project/beautifultable/
 
 from beautifultable import BeautifulTable
 table = BeautifulTable()
+print("Measure or Iris - All Species")
 table.column_headers = ["Name", "Mean", "Min","Max"]
 table.append_row(["SL", meanfirstcol, minfirstcol, maxfirstcol])
 table.append_row(["SW", meanSecondcol, minSecondcol, maxSecondcol])
@@ -45,22 +68,14 @@ table.append_row(["PL", meanthirdcol, minthirdcol, maxthirdcol])
 table.append_row(["PR", meanfourthcol, minfourthcol, maxfourthcol])
 print(table)
 
+table2 = BeautifulTable()
+print("Measure or Iris virginica")
+table2.column_headers = ["Name", "Mean", "Min","Max"]
+table2.append_row(["SL", meanfirstcolv, minfirstcolv, maxfirstcolv])
+table2.append_row(["SW", meanSecondcolv, minSecondcolv, maxSecondcolv])
+table2.append_row(["PL", meanthirdcolv, minthirdcolv, maxthirdcolv])
+table2.append_row(["PR", meanfourthcolv, minfourthcolv, maxfourthcolv])
+print(table2)
 
-
-#print("Average of the First column is:", meanfirstcol)
-#print("Min of the First column is:", minfirstcol)
-#print("Max of the First column is:", maxfirstcol)
-
-#print("Average of the Second column is:", meanSecondcol)
-#print("Min of the Second column is:", minSecondcol)
-#print("Max of the Second column is:", maxSecondcol)
-
-#print("Average of the Third column is:", meanthirdcol)
-#print("Min of the Third column is:", minthirdcol)
-#print("Max of the Third column is:", maxthirdcol)
-
-#print("Average of the First column is:", meanfourthcol)
-#print("Min of the First column is:", minfourthcol)
-#print("Max of the First column is:",maxfourthcol)
 
 #https://campus.datacamp.com/courses/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis?ex=5&_escaped_fragment_=#next

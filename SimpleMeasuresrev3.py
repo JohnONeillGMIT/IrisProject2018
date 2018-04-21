@@ -11,15 +11,6 @@ import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/s
 import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
 
 
-#import numpy as np #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
-#import pandas as pd
-#import seaborn as sns #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot...learning seaborn 20/04
-#sns.set_palette('husl')
-#import matplotlib.pyplot as plt
-#%matplotlib inline
-
-
-data = pd.read_csv('virginica.csv')
 
 #read in the Iris file
 
