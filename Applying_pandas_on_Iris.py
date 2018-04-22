@@ -1,4 +1,7 @@
-# John O'Neill 17/04/2018 - Using the Numpy.py file with column 1 to work on graphs from Mathplotlib.
+# John O'Neill 22/04/2018 - This file is an effort to learn how to use pandas and apply in the the measurements of iris data set
+# reviewing multiple tutorials on line
+#References: 
+#https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 
 
 
@@ -23,8 +26,14 @@ import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-ir
 #print (vir.head())
 #print (vir.dtypes)
 
-df= pd.read_csv('iris.csv')
+df= pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
 print (df)
+
+#https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
+#getting a lot of great information from this site!!
+df['SL'][df['Species'] =='Iris-setosa'].mean() #gets mean od SL in Setosa!!
+df.groupby('Species')# data is now "grouped" by Species of Iris
+df.groupby('Species').groups.keys()# 
 
 df.to_csv('newname.csv') #no index written to file in output https://www.youtube.com/watch?v=-0NwrcZOKhQ
 
@@ -34,19 +43,4 @@ df.to_csv('newname.csv') #no index written to file in output https://www.youtube
 #df  = pd.read_csv("iris.csv")
 #df.plot()  # plots all columns against index
 #df.plot(kind='scatter',x='x',y='y') # scatter plot
-
-
-
-#read in the Iris file
-
-#data = numpy.genfromtxt('iris.csv', dtype=float, delimiter= ',') #pulls in the iris.csv file, delimited by ','
-
-#firstcol = data[:,0] #assigns the first column of data from the csv file
-#meanfirstcol =numpy.nanmean(data[:,0]) #added nan so that columns with no value #n/a wont drive an error
-#minfirstcol =numpy.nanmin(data[:,0])
-#maxfirstcol =numpy.nanmax(data[:,0])
-
-#print("Average of the First column is:", meanfirstcol)
-#print("Min of the First column is:", minfirstcol)
-#print("Max of the First column is:", maxfirstcol)
 
