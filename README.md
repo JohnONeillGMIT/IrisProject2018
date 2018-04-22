@@ -1,4 +1,5 @@
 
+
 # IrisProject2018
 Programming and Scripting Module Project
 
@@ -14,6 +15,8 @@ What does examining a data set entail
 How can Python be used?
 Present Write up and code
 
+"Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
+Ref: https://www.youtube.com/watch?v=CmorAWRsCAw
 
 README
 Summary of Data Set
