@@ -66,4 +66,12 @@ In the course of working through Python coding to interogate teh data for trends
 This project has introduced the need to become familiar with Data Analysis tools supported by Python such as Numpy, Pandas,
 matplotlib.pyplot, and seaborn. In order to improve the apparance of outputted data I have come accross modules that helped in various searches and tuturials online....beauti
 
+"Data Visualisation (https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
+We are going to look at two types of plots:
+Univariate plots to better understand each attribute.
+Multivariate plots to better understand the relationships between attributes.
+We start with some univariate plots, that is, plots of each individual variable.... Raw data is Numeric... Histograms
  
+ Multivariate Plots
+Now we can look at the interactions between the variables.
+First, let’s look at scatterplots of all pairs of attributes. This can be helpful to spot structured relationships between input variables".
