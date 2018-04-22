@@ -1,8 +1,4 @@
 
-
-
-
-
 # IrisProject2018
 Programming and Scripting Module Project
 
@@ -55,7 +51,6 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 This project has introduced the need to become familiar with Data Analysis tools supported by Python such as Numpy, Pandas,
 matplotlib.pyplot, and seaborn. In order to improve the apparance of outputted data I have come accross modules that helped in various searches and tuturials online....beauti
-+------------+--------------+-------+-----+-----+
 |  Species   |     Name     | Mean  | Min | Max |
 +------------+--------------+-------+-----+-----+
 | All        | Sepal_Length | 5.843 | 4.3 | 7.9 |
@@ -66,6 +61,7 @@ matplotlib.pyplot, and seaborn. In order to improve the apparance of outputted d
 +------------+--------------+-------+-----+-----+
 | All        | Petal_Width  | 1.199 | 0.1 | 2.5 |
 +------------+--------------+-------+-----+-----+
+
 |  Species   |     Name     | Mean  | Min | Max |
 +------------+--------------+-------+-----+-----+
 | setosa     | Sepal_Length | 5.006 | 4.3 | 5.8 |
@@ -94,8 +90,26 @@ matplotlib.pyplot, and seaborn. In order to improve the apparance of outputted d
 +------------+--------------+-------+-----+-----+
 | virginica  | Petal_Length | 5.552 | 4.5 | 6.9 |
 +------------+--------------+-------+-----+-----+
-| virginica  | Petal_Width  | 2.026 | 1.4 | 2.5 |
-+------------+--------------+-------+-----+-----+
+| virginica  | Petal_Width  | 2.026 | 1.4 | 2.5   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
-
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 why 
