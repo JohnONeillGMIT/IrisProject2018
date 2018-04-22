@@ -146,7 +146,7 @@ print('\n',table3,'\n')
 
 #I want to sent this data to a txt file output for later presentation in the Readme.md
 
-with open('Output_of_SimpleMeasure_code.txt', 'w') as f:
+with open('Output_of_SimpleMeasure_code.txt', 'a') as f:
    f.write(str(table)),'\n' #All Iris measures written to the Output file
    f.write(str(table1)),'\n' # setosa measures written to the Output file
    f.write(str(table2)),'\n' # versicolor measures written to the Output file
