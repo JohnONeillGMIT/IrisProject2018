@@ -10,8 +10,12 @@ https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutoria
 https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook
 https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot
 https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
+#22/04 https://pandas.pydata.org/pandas-docs/stable/groupby.html nbb
 
 '''
+
+
+
 
 #Calculating the mean of Col 1
 
@@ -24,33 +28,34 @@ import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-ir
 
 
 
-#import seaborn as sns #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot...learning seaborn 20/04
+
 #sns.set_palette('husl')
-#%matplotlib inline
+%matplotlib inline #
 
 
-df= pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
-print (df)
+data=pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
+print (data)
 
 #https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 #getting a lot of great information from this site!!
-df['SL'][df['Species'] =='Iris-setosa'].mean() #gets mean od SL in Setosa!!
-df.groupby('Species')# data is now "grouped" by Species of Iris
-df.groupby('Species').groups.keys()# dict_keys(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'])
+data['SL'][data['Species'] =='Iris-setosa'].mean() #gets mean od SL in Setosa!!
+data.groupby('Species')# data is now "grouped" by Species of Iris
+data.groupby('Species').groups.keys()# dict_keys(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'])
 
 
-df.describe.groupby('Species'))
+data.describe.groupby('Species')
+#data[data["Species"] == "iris-setosa"] 
 
 
-df.plot.scatter('SL','SW') #ref https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.scatter.html
+data.plot.scatter('SL','SW') #ref https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.scatter.html
 plt.show()
 
 
 # histograms
-df.hist()
+data.hist()
 plt.show()
 
-df.to_csv('newname.csv') #no index written to file in output https://www.youtube.com/watch?v=-0NwrcZOKhQ
+data.to_csv('newname.csv') #no index written to file in output https://www.youtube.com/watch?v=-0NwrcZOKhQ
 
 #Learning for today!!: Having a file cal;led pandas.py in the directory causes and Attribute error!
 #https://stackoverflow.com/questions/43696005/attributeerror-module-pandas-has-no-attribute-read-csv-python3-5
