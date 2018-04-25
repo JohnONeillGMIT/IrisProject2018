@@ -36,10 +36,10 @@ Clearly document what the code does
 Background Information.
 The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". Ref the data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
-So in summaryr:
+So in summary:
 Sample Size = 150
-Variables measured = 4 (length and the width of the sepals and petals, in centimetres)
-Species= 3  (setosa, versicolor, virginica)
+Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)
+Species ("Outputs") = 3 ...setosa, versicolor, virginica
 
 Based on the feature of the 4 variables, Fisher developed a Linear dicriminant model to distinguish the species from eachother.
 In "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses alrweady known groups assignments "to assign objects to one group among a number of groups.(2)
