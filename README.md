@@ -36,14 +36,30 @@ Clearly document what the code does
 Background Information.
 The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". Ref the data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
-So in summaryr:
+So in summary:
 Sample Size = 150
-Variables measured = 4 (length and the width of the sepals and petals, in centimetres)
-Species= 3  (setosa, versicolor, virginica)
+Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)
+Species ("Outputs") = 3 ...setosa, versicolor, virginica
+
+Based on the feature of the 4 variables, Fisher developed a Linear dicriminant model to distinguish the species from eachother.
+In "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses alrweady known groups assignments "to assign objects to one group among a number of groups.(2)
+
+(2)https://www.researchoptimus.com/article/what-is-descriminant-analysis.php
+
+Assumptions..
+"That your data is Gaussian, that each variable is is shaped like a bell curve when plotted.
+That each attribute has the same variance, that values of each variable vary around the mean by the same amount on average."
+
+
+
+
+
+
+It is apparent that this data set is commmonly used as sample data inputted to demonstrate "machine learning" and Predictive Data analyitics.
 
 An inital review of the data shows that the characteristics of the Iris-setosa are distinct in measurements from the Iris-versicolor and virginica.
 
-It is apparent that this data set is commmonly used as sample data inputted to demonstrate "machine learning" and Predictive Data analyitics.
+
 
 The analysis of the data and use of graphs gives useful insight to the characteristics of the 3 species of Iris.An inital review of the data shows that the characteristics of the Iris-setosa are distinct in measurements from the Iris-versicolor and virginica.
 
