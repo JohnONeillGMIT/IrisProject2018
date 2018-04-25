@@ -25,16 +25,18 @@ import pandas as pd #https://www.pythonprogramming.net/data-analysis-python-pand
 import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
 import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
 #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot...learning seaborn 20/04
+from matplotlib import style
+#style.use('ggplot')
 
 
 
 
 #sns.set_palette('husl')
-%matplotlib inline #
+#%matplotlib inline #
 
 
 data=pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
-print (data)
+#print (data)
 
 #https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 #getting a lot of great information from this site!!
@@ -42,20 +44,29 @@ data['SL'][data['Species'] =='Iris-setosa'].mean() #gets mean od SL in Setosa!!
 data.groupby('Species')# data is now "grouped" by Species of Iris
 data.groupby('Species').groups.keys()# dict_keys(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'])
 
+stats=data.groupby('Species').describe()
+stats.to_csv('Summary.csv')
 
-data.describe.groupby('Species')
-#data[data["Species"] == "iris-setosa"] 
+
+#sns.FacetGrid(data, hue="Species")
+#data.plot.scatter('SL','SW',c='Species') #ref https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.scatter.html
+#data.groupby('Species').groups.keys()
+#plt.title('Scatter Chart of SL to SW relationship/n for All Data Sample')
+#plt.legend()
+#plt.show()
 
 
-data.plot.scatter('SL','SW') #ref https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.scatter.html
-plt.show()
+# I am using seaborn to plot the scatter as thiw was the "easiest" method to get the colurs of the Species outputted as I wanted.
+sns.FacetGrid(data, hue="Species")
+map(plt.scatter,'SL','SW')
+.add_legend()
 
 
 # histograms
-data.hist()
-plt.show()
+##data.hist()
+#plt.show()
 
-data.to_csv('newname.csv') #no index written to file in output https://www.youtube.com/watch?v=-0NwrcZOKhQ
+#data.to_csv('newname.csv') #no index written to file in output https://www.youtube.com/watch?v=-0NwrcZOKhQ
 
 #Learning for today!!: Having a file cal;led pandas.py in the directory causes and Attribute error!
 #https://stackoverflow.com/questions/43696005/attributeerror-module-pandas-has-no-attribute-read-csv-python3-5
