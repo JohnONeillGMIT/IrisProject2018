@@ -4,7 +4,7 @@
 
 #Calculating the mean of Col 1
 
-import numpy
+import numpy as np
 import statistics
 from beautifultable import BeautifulTable
 
@@ -14,53 +14,53 @@ data = numpy.genfromtxt('iris.csv', dtype=float, delimiter= ',') #pulls in the i
 
 firstcol = data[:,0] #assigns the first column of data from the csv file
 #Sepal Length Column
-meanfirstcol =numpy.nanmean(data[:,0]) #added nan so that columns with no value #n/a wont drive an error
-minfirstcol =numpy.nanmin(data[:,0])
-maxfirstcol =numpy.nanmax(data[:,0])
+meanfirstcol =numpy.mean(data[:,0]) #added nan so that columns with no value #n/a wont drive an error
+minfirstcol =numpy.min(data[:,0])
+maxfirstcol =numpy.max(data[:,0])
 modefirstcol =statistics.mode(data[:,0]) #Return the most common data point...central location
 stdevfirstcol =statistics.stdev(data[:,0]) 
 
 Secondcol = data[:,1] #assigns the first column of data from the csv file
 #Sepal Width Column
-meanSecondcol =numpy.nanmean(data[:,1]) 
-minSecondcol =numpy.nanmin(data[:,1])
-maxSecondcol =numpy.nanmax(data[:,1])
+meanSecondcol =numpy.mean(data[:,1]) 
+minSecondcol =numpy.min(data[:,1])
+maxSecondcol =numpy.max(data[:,1])
 
 thirdcol = data[:,2] #assigns the first column of data from the csv file
 #Petal Length Column
-meanthirdcol =numpy.nanmean(data[:,2]) 
-minthirdcol =numpy.nanmin(data[:,2])
-maxthirdcol =numpy.nanmax(data[:,2])
+meanthirdcol =numpy.mean(data[:,2]) 
+minthirdcol =numpy.min(data[:,2])
+maxthirdcol =numpy.max(data[:,2])
 
 fourthcol = data[:,3] #assigns the first column of data from the csv file
 #Petal Width Column
-meanfourthcol =numpy.nanmean(data[:,3]) 
-minfourthcol =numpy.nanmin(data[:,3])
-maxfourthcol =numpy.nanmax(data[:,3])
+meanfourthcol =numpy.mean(data[:,3]) 
+minfourthcol =numpy.min(data[:,3])
+maxfourthcol =numpy.max(data[:,3])
 
 
 # importing the file with the 3 Iris species data files separately... bit simplistic I know!
 data1 = numpy.genfromtxt('setosa.csv', dtype=float, delimiter= ',') #pulls in the iris.csv file, delimited by ','
 
 firstcol1 = data1[:,0] #assigns the first column of data from the csv file
-meanfirstcol1 =numpy.nanmean(data1[:,0]) #added nan so that columns with no value #n/a wont drive an error
-minfirstcol1 =numpy.nanmin(data1[:,0])
-maxfirstcol1 =numpy.nanmax(data1[:,0])
+meanfirstcol1 =numpy.mean(data1[:,0]) #added nan so that columns with no value #n/a wont drive an error
+minfirstcol1 =numpy.min(data1[:,0])
+maxfirstcol1 =numpy.max(data1[:,0])
 
 Secondcol1 = data1[:,1] #assigns the first column of data from the csv file
-meanSecondcol1 =numpy.nanmean(data1[:,1]) #added nan so that columns with no value #n/a wont drive an error
-minSecondcol1 =numpy.nanmin(data1[:,1])
-maxSecondcol1 =numpy.nanmax(data1[:,1])
+meanSecondcol1 =numpy.mean(data1[:,1]) #added nan so that columns with no value #n/a wont drive an error
+minSecondcol1 =numpy.min(data1[:,1])
+maxSecondcol1 =numpy.max(data1[:,1])
 
 thirdcol1 = data1[:,2] #assigns the first column of data from the csv file
-meanthirdcol1 =numpy.nanmean(data1[:,2]) #added nan so that columns with no value #n/a wont drive an error
-minthirdcol1 =numpy.nanmin(data1[:,2])
-maxthirdcol1 =numpy.nanmax(data1[:,2])
+meanthirdcol1 =numpy.mean(data1[:,2]) #added nan so that columns with no value #n/a wont drive an error
+minthirdcol1 =numpy.min(data1[:,2])
+maxthirdcol1 =numpy.max(data1[:,2])
 
 fourthcol1 = data1[:,3] #assigns the first column of data from the csv file
-meanfourthcol1 =numpy.nanmean(data1[:,3]) #added nan so that columns with no value #n/a wont drive an error
-minfourthcol1 =numpy.nanmin(data1[:,3])
-maxfourthcol1 =numpy.nanmax(data1[:,3])
+meanfourthcol1 =numpy.mean(data1[:,3]) #added nan so that columns with no value #n/a wont drive an error
+minfourthcol1 =numpy.min(data1[:,3])
+maxfourthcol1 =numpy.max(data1[:,3])
 
 data2 = numpy.genfromtxt('versicolor.csv', dtype=float, delimiter= ',') #pulls in the iris.csv file, delimited by ','
 
