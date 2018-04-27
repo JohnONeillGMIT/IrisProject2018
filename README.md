@@ -1,9 +1,14 @@
 
-
-
-
 # IrisProject2018
 Programming and Scripting Module Project
+
+This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module to date, and as the research progressed, helped introduce (and learn about) modules commonly used in Data Science/ Data Analyitics workings.
+
+Initially basic coding was used to calculate and display basic staistics on the dataset and pushing output to print/file output in a Tabular format.
+Through further reaserch I discovered Pandas, Numpy, Mathplotlib and seaborn as useful an more effective means of data mining as well as producing a visualistion of the data.
+The data sets data and subsequent graphics make evident there are attributes to the species or Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
+
+It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning.
 
 1. Research background information about the data set and write a summary about it.
 2. Keep a list of references you used in completing the project.
@@ -50,6 +55,7 @@ e
 The data set is used demonstrating machine learning is what is described as "Supervised Learning". There is a clear relationship between the known input data available and the expected outputs.
 
 Assumptions..
+
 "That your data is Gaussian, that each variable is is shaped like a bell curve when plotted.
 That each attribute has the same variance, that values of each variable vary around the mean by the same amount on average."
 
@@ -99,3 +105,9 @@ We start with some univariate plots, that is, plots of each individual variable.
  Multivariate Plots
 Now we can look at the interactions between the variables.
 First, let’s look at scatterplots of all pairs of attributes. This can be helpful to spot structured relationships between input variables".
+   
+   
+   
+   
+  Sp 
+   
