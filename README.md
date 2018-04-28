@@ -19,7 +19,7 @@ l  A Python script will quickly do this for you.
 
 What does examining a data set entail
 How can Python be used?
-|
+
 Present Write up and code
 
 "Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
@@ -48,7 +48,7 @@ The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 19
 first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Min,Max,Mode and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is kkkkkkk.txt (link)
 
 ##### Table 1:Measures of Variables
-![Image of SimpleMeasures Output]()
+![Image of SimpleMeasures Output](https://github.com/JohnONeillGMIT/IrisProject2018/blob/master/SimpleMeasuresr4_Output.PNGPresent)
 
 ##### Sepal Length
 Species|Mean|Min|Max|
