@@ -49,38 +49,32 @@ first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Mi
 
 ##### Table 1:Measures of Variables
 
-###### Sepal Length
-
 ##### Sepal Length
-
 Species|Mean|Min|Max|
 ---|---|---|---|
 Iris-setosa|	5.006|	4.3	|5.8|
 Iris-versicolor|	5.936|	4.9|	7|
 Iris-virginica|	6.588|	4.9	|7.9|
-
+##### Sepal Width
 Species|Mean|Min|Max|
 ---|---|---|---|
-Iris-setosa|	5.006|	4.3	|5.8|
-Iris-versicolor|	5.936|	4.9|	7|
-Iris-virginica|	6.588|	4.9	|7.9|
+Iris-setosa|	3.418|	2.3|	4.4
+Iris-versicolor|	2.77|	2	|3.4
+Iris-virginica	|2.974|	2.2|	3.8
 
-
-###### Sepal Length
-
+###### Petal Length
 Species|Mean|Min|Max|
 ---|---|---|---|
-Iris-setosa|	5.006|	4.3	|5.8|
-Iris-versicolor|	5.936|	4.9|	7|
-Iris-virginica|	6.588|	4.9	|7.9|
+Iris-setosa|	1.464|	1	|1.9
+Iris-versicolor|	4.26	|3	|5.1
+Iris-virginica	|5.552|	4.5|	6.9
 
-###### Sepal Length
-
+###### Petal Width
 Species|Mean|Min|Max|
 ---|---|---|---|
-Iris-setosa|	5.006|	4.3	|5.8|
-Iris-versicolor|	5.936|	4.9|	7|
-Iris-virginica|	6.588|	4.9	|7.9|
+Iris-setosa|	0.244|	0.1|	0.6
+Iris-versicolor|	1.326|	1	|1.8
+Iris-virginica|	2.026	|1.4|	2.5
 
 
 
