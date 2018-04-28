@@ -13,7 +13,7 @@ It is clear why the Iris data set is commonly used as sample data to demonstrate
 2. Keep a list of references you used in completing the project.
 3. Download the data set and write some Python code to investigate it.
 4. Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set.
-  A Python script will quickly do this for you.
+l  A Python script will quickly do this for you.
 5. Write a summary of your investigations. 
 #6. Include supporting tables and graphics as you deem necessary.
 
@@ -23,7 +23,7 @@ How can Python be used?
 Present Write up and code
 
 "Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
-
+m
 Ref: https://www.youtube.com/watch?v=CmorAWRsCAw
 #
 
@@ -33,7 +33,7 @@ Investigations into Data Set
 
 Document how to run the Python code used to investigate the data set
 Clearly document what the code does
-
+S
 
 
 ### Background Information.
@@ -48,6 +48,7 @@ The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 19
 first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Min,Max,Mode and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is kkkkkkk.txt (link)
 
 ##### Table 1:Measures of Variables
+![Image of SimpleMeasures Output]()
 
 ##### Sepal Length
 Species|Mean|Min|Max|
