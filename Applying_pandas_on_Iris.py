@@ -12,31 +12,30 @@ https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot
 https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 #22/04 https://pandas.pydata.org/pandas-docs/stable/groupby.html nbb
 
+I struggled to get the col
+https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset 
+
 '''
 
 
-
-
-#Calculating the mean of Col 1
-
 # In order to run the data analysis and produce charts etc. I have to import these "modules"/"libraries" to perform the tasks.
-import numpy as np # the AS gives you a shorthand version of the module name
+# the AS gives you a shorthand version of the module name
 import pandas as pd #https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
 import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
 import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
 #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot...learning seaborn 20/04
-from matplotlib import style
-#style.use('ggplot')
-
-
-
-
-#sns.set_palette('husl')
-#%matplotlib inline #
-
 
 data=pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
 
+ratio = data["Sepal_Length"]/data["Sepal_Width"] #https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
+
+for name, group in data.groupby("Species"): #https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset 
+    plt.scatter(group.index, ratio[group.index], label=name)
+plt.title('Scatter Chart of SL to SW relationship for Iris Dataset')
+plt.legend()
+plt.show()
+
+'''
 
 #https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 #came on the "groupby" information from this site and also saw the "Agg" command introduced
