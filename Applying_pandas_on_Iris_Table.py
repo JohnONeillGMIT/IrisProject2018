@@ -19,8 +19,8 @@ https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pan
 # In order to run the data analysis and produce charts etc. I have to import these "modules"/"libraries" to perform the tasks.
 import numpy as np # the AS gives you a shorthand version of the module name
 import pandas as pd #https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
-import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
-import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
+#import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
+#import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
 #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot...learning seaborn 20/04
 
 data=pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
@@ -35,7 +35,7 @@ data.groupby('Species').groups.keys()# dict_keys(['Iris-setosa', 'Iris-versicolo
 
 stats = data.groupby('Species').agg(['mean','min','max'])
 
-#stats.columns = [' '.join(col) for col in stats.columns] #concatenate the orig. colname (‘SL’) with name of the agg. function (‘max’).
+stats.columns = [' '.join(col) for col in stats.columns] #concatenate the orig. colname (‘SL’) with name of the agg. function (‘max’).
 stats.reset_index() #tidies header column in table to align #https://intoli.com/blog/pandas-aggregation/ 
 
 stats.to_csv('Summary.csv')
