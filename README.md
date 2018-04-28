@@ -48,7 +48,7 @@ The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 19
 first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Min,Max,Mode and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is kkkkkkk.txt (link)
 
 ##### Table 1:Measures of Variables
-![Image of SimpleMeasures Output](https://github.com/JohnONeillGMIT/IrisProject2018/blob/master/SimpleMeasuresr4_Output.PNGPresent)
+![Image of Print Output from python code](SimpleMeasuresr4_Output.PNG)
 
 ##### Sepal Length
 Species|Mean|Min|Max|
