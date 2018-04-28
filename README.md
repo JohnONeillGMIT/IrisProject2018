@@ -9,8 +9,7 @@ The data sets data and subsequent graphics make evident there are attributes to 
 
 It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning.
 
-1. Research background information about the data set and write a summary about it.
-2. Keep a list of references you used in completing the project.
+1. Research background information about the data set and write a summary about it.2. Keep a list of references you used in completing the project.
 3. Download the data set and write some Python code to investigate it.
 4. Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set.
 l  A Python script will quickly do this for you.
@@ -20,29 +19,26 @@ l  A Python script will quickly do this for you.
 What does examining a data set entail
 How can Python be used?
 
-Present Write up and code
+A Present Write up and code
 
 "Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
 m
 Ref: https://www.youtube.com/watch?v=CmorAWRsCAw
 #
-
 README
 Summary of Data Set
 Investigations into Data Set
-
 Document how to run the Python code used to investigate the data set
 Clearly document what the code does
 S
 
 
-### Background Information.
+ ### Background Information.
 The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". Ref the data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
 ##### So in summary:
 1. Sample Size = 150
-2. Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)
-3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
+m2. Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
 
 ### Inital Findings/Observations.
 first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Min,Max,Mode and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is kkkkkkk.txt (link)
@@ -77,7 +73,17 @@ Iris-setosa|	0.244|	0.1|	0.6
 Iris-versicolor|	1.326|	1	|1.8
 Iris-virginica|	2.026	|1.4|	2.5
 
+A As a first pass review of the data output one can make certain observations to prompt further rview
 
+Sepal: Average Lenget of the setosa is generlly smaller that versicolr and virginica, which are close in measure 
+The oppisite applies o the Sepal Widths. In this case the data shows setosa to be signigicantly wider that both alternatives
+... setosa petal shown to be "short and wide", while the other 2 are "long and narrow"
+
+Petals: The average length of setosa is significantly shorter at a maximum lenght of 1.9cm. In contrast the shortest of verisolcor and virginica are substantially longer that the setosa at 3cm and 4.5cm respectively.
+Also the width od the setosa species is heavily contrasted to its fellow Iris species.
+.... setosa id both substantially shorter and nawwower that V&V
+
+Producing Visualisations of the data measure further helps demonstate the gaps in relative size
 
 Based on the feature of the 4 variables, Fisher developed a Linear dicriminant model to distinguish the species from eachother.
 In "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses already known groups assignments "to assign objects to one group among a number of groups.(2)
