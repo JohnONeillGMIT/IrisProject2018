@@ -1,4 +1,4 @@
-# IrisProject2018 Programming and Scripting Module Project
+## IrisProject2018 Programming and Scripting Module Project
 
 ## Introduction
 This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module, and as the research progressed, helped introduce (and learn about) tools commonly used in Data Science/ Data Analyitics workings.
@@ -15,7 +15,7 @@ It is clear why the Iris data set is commonly used as sample data to demonstrate
 4. Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set.
   A Python script will quickly do this for you.
 5. Write a summary of your investigations. 
-6. Include supporting tables and graphics as you deem necessary.
+#6. Include supporting tables and graphics as you deem necessary.
 
 What does examining a data set entail
 How can Python be used?
@@ -25,7 +25,7 @@ Present Write up and code
 "Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
 
 Ref: https://www.youtube.com/watch?v=CmorAWRsCAw
-
+#
 
 README
 Summary of Data Set
@@ -33,6 +33,7 @@ Investigations into Data Set
 
 Document how to run the Python code used to investigate the data set
 Clearly document what the code does
+
 
 
 ### Background Information.
@@ -48,17 +49,38 @@ first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Mi
 
 ##### Table 1:Measures of Variables
 
-|Species|Sepal_Length|Sepal_Length|Sepal_Length|Sepal_Width|Sepal_Width|Sepal_Width|Petal_Length|Petal_Length|Petal_Length|Petal_Width|Petal_Width|Petal_Width|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|---|mean|min|max|mean|min|max|mean|min|max|mean|min|max|
-|Iris-setosa|5.006|4.3|5.8|3.418|2.3|4.4|1.464|1|1.9|0.244|0.1|0.6|
-|Iris-versicolor|5.936|4.9|7.0|2.77|2|3.4	|4.26	|3|5.1|1.326|1|1.8|
-|Iris-virginica|6.588|4.9|7.9|2.974|2.2|3.8|5.552|4.5|6.9|2.026|1.4|2.5|
+###### Sepal Length
+
+##### Sepal Length
+
+Species|Mean|Min|Max|
+---|---|---|---|
+Iris-setosa|	5.006|	4.3	|5.8|
+Iris-versicolor|	5.936|	4.9|	7|
+Iris-virginica|	6.588|	4.9	|7.9|
+
+Species|Mean|Min|Max|
+---|---|---|---|
+Iris-setosa|	5.006|	4.3	|5.8|
+Iris-versicolor|	5.936|	4.9|	7|
+Iris-virginica|	6.588|	4.9	|7.9|
 
 
+###### Sepal Length
 
+Species|Mean|Min|Max|
+---|---|---|---|
+Iris-setosa|	5.006|	4.3	|5.8|
+Iris-versicolor|	5.936|	4.9|	7|
+Iris-virginica|	6.588|	4.9	|7.9|
 
+###### Sepal Length
 
+Species|Mean|Min|Max|
+---|---|---|---|
+Iris-setosa|	5.006|	4.3	|5.8|
+Iris-versicolor|	5.936|	4.9|	7|
+Iris-virginica|	6.588|	4.9	|7.9|
 
 
 
@@ -74,7 +96,6 @@ Assumptions..
 "That your data is Gaussian, that each variable is is shaped like a bell curve when plotted.
 That each attribute has the same variance, that values of each variable vary around the mean by the same amount on average."
 
-
 T
 
 
@@ -84,7 +105,6 @@ It is apparent that this data set is commmonly used as sample data inputted to d
 An inital review of the data shows that the characteristics of the Iris-setosa are distinct in measurements from the Iris-versicolor and virginica.
 
 
-
 The analysis of the data and use of graphs gives useful insight to the characteristics of the 3 species of Iris.An inital review of the data shows that the characteristics of the Iris-setosa are distinct in measurements from the Iris-versicolor and virginica.
 
 The key to good data analyitics it is argued is that stored inforamtion is most useful in that it is used to produce new information (Cokins)... it the case of the Iris, the various lenghts , widths etc. of a given petal should "predict" what particular species of the plant is at hand.
@@ -92,8 +112,7 @@ The key to good data analyitics it is argued is that stored inforamtion is most 
 "in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods"
 https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
 
-References:
-Examples and tutorials on how to create histograms and Scatterplots. Based on researching the Data Set the scattergram type graphs are effective illustrations for the 3 different Species of Iris speciments.
+References:Examples and tutorials on how to create histograms and Scatterplots. Based on researching the Data Set the scattergram type graphs are effective illustrations for the 3 different Species of Iris speciments.
 
 
 1 https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
@@ -102,7 +121,6 @@ Background on Iris Data Set
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 In the course of working through Python coding to interogate teh data for trends in the data and through researching available functions , modules etc . that surfaced during that effort, it has become apparent there are numerous modules and Python "Add-ons" that make the Data Analysis effort much easier and User friendly for the beginner "Programmer". Inital attempts to calculate the Statistical measures were "clumsy"... lenghty code and messy looking data tables.
-
 It became quickly apparent to me that running a Histogram for all the data combined does not add significant value, only comparisons between the Species and their characterisics demonstartes the relationships and groupings of measures bedendent on the variables.
 
 
@@ -112,8 +130,7 @@ This project has introduced the need to become familiar with Data Analysis tools
 matplotlib.pyplot, and seaborn. In order to improve the apparance of outputted data I have come accross modules that helped in various searches and tuturials online....beauti
 
 "Data Visualisation (https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
-We are going to look at two types of plots:
-Univariate plots to better understand each attribute.
+We are going to look at two types of plots:Univariate plots to better understand each attribute.
 Multivariate plots to better understand the relationships between attributes.
 We start with some univariate plots, that is, plots of each individual variable.... Raw data is Numeric... Histograms
  
