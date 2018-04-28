@@ -1,11 +1,10 @@
+# IrisProject2018 Programming and Scripting Module Project
 
-# IrisProject2018
-Programming and Scripting Module Project
+## Introduction
+This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module, and as the research progressed, helped introduce (and learn about) tools commonly used in Data Science/ Data Analyitics workings.
 
-This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module to date, and as the research progressed, helped introduce (and learn about) modules commonly used in Data Science/ Data Analyitics workings.
-
-Initially basic coding was used to calculate and display basic staistics on the dataset and pushing output to print/file output in a Tabular format.
-Through further reaserch I discovered Pandas, Numpy, Mathplotlib and seaborn as useful an more effective means of data mining as well as producing a visualistion of the data.
+Initially python coding was used to calculate and display basic staistics on the dataset and pushing output to print/file output in a Tabular format. (used Mean, Min, Max as sample indicators of significant attributes)...
+Through further reaserch I discovered Pandas, Numpy, Mathplotlib and seaborn as useful an more effective means of data mining as well as producing a effective visualistion of the data.
 The data sets data and subsequent graphics make evident there are attributes to the species or Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
 
 It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning.
@@ -20,9 +19,11 @@ It is clear why the Iris data set is commonly used as sample data to demonstrate
 
 What does examining a data set entail
 How can Python be used?
+|
 Present Write up and code
 
 "Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
+
 Ref: https://www.youtube.com/watch?v=CmorAWRsCAw
 
 README
@@ -33,19 +34,32 @@ Document how to run the Python code used to investigate the data set
 Clearly document what the code does
 
 
-
-
-
-1..
-
-
-Background Information.
+### Background Information.
 The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". Ref the data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
-So in summary:
-Sample Size = 150
-Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)
-Species ("Outputs") = 3 ...setosa, versicolor, virginica
+##### So in summary:
+1. Sample Size = 150
+2. Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)
+3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
+
+### Inital Findings/Observations.
+first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Min,Max,Mode and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is kkkkkkk.txt (link)
+
+##### Table 1:Measures of Variables
+
+|Species|Sepal_Length|Sepal_Length|Sepal_Length|Sepal_Width|Sepal_Width|Sepal_Width|Petal_Length|Petal_Length|Petal_Length|Petal_Width|Petal_Width|Petal_Width|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|---|mean|min|max|mean|min|max|mean|min|max|mean|min|max|
+|Iris-setosa|5.006|4.3|5.8|3.418|2.3|4.4|1.464|1|1.9|0.244|0.1|0.6|
+|Iris-versicolor|5.936|4.9|7.0|2.77|2|3.4	|4.26	|3|5.1|1.326|1|1.8|
+|Iris-virginica|6.588|4.9|7.9|2.974|2.2|3.8|5.552|4.5|6.9|2.026|1.4|2.5|
+
+
+
+
+
+
+
 
 Based on the feature of the 4 variables, Fisher developed a Linear dicriminant model to distinguish the species from eachother.
 In "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses already known groups assignments "to assign objects to one group among a number of groups.(2)
