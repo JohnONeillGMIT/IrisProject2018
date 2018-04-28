@@ -23,43 +23,34 @@ import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-ir
 #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot...learning seaborn 20/04
 from matplotlib import style
 
-data=pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
+#data=pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
 
 
-#https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
-#came on the "groupby" information from this site and also saw the "Agg" command introduced
-#https://intoli.com/blog/pandas-aggregation/ - further learning on the Agg functionality here
-#data[][data['Species'] =='Iris-setosa'].mean() #gets mean od SL in Setosa!!
-#data.groupby('Species')# data is now "grouped" by Species of Iris (just kept as learning point for me...)
-#data.groupby('Species').groups.keys()# dict_keys(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']) (just kept as learning point for me...)
+'''
+I originally had this scatter - all 1 colour and now what I wanted
 
-#stats = data.groupby('Species').agg(['mean','min','max'])
-#stats.columns = [' '.join(col) for col in stats.columns] #concatenate the orig. colname (‘SL’) with name of the agg. function (‘max’).
-#stats.reset_index() #tidies header column in table to align #https://intoli.com/blog/pandas-aggregation/ 
+data.plot.scatter(x='Sepal_Length',y='Sepal_Width') #ref https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.scatter.html
 
-#stats.to_csv('Summary.csv')
+plt.title('Scatter Chart of SL to SW relationship/n for All Data Sample')
+plt.legend()
+'''
 
 
+sns.set(style="ticks", color_codes=True)
+iris = sns.load_dataset('iris')
+%matplotlib inline
 
-#data.plot.scatter('SL','SW',c='Species') #ref https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.scatter.html
+iris = sns.load_dataset("iris")
+sns.scatter(iris, hue="species")
 
-#ax = plt.subplots()
-#colors = {'Iris-setosa':'red', 'Iris-versicolor':'blue', 'Iris-virginica':'green'}
-#grouped = data.groupby('Species')
-#for key, group in grouped:
-#   group.plot(ax=ax, kind='scatter', x='carat', y='price', label=key, colors=color[key])
 
 #scatter_matrix(data)
 #data.groupby('Species').groups.keys()
-#plt.title('Scatter Chart of SL to SW relationship/n for All Data Sample')
-#plt.legend()
-#plt.show()
-
 
 # I am using seaborn to plot the scatter as thiw was the "easiest" method to get the colurs of the Species outputted as I wanted.
 #sns.FacetGrid(data, hue="Species")
 #map(plt.scatter,'SL','SW')
-#.add_legend()
+
 
 
 # histograms

@@ -1,5 +1,5 @@
-# John O'Neill 22/04/2018 - 
-# 
+# John O'Neill 22/04/2018 
+
 '''This file is an effort to learn how to use pandas and apply in the the measurements of iris data set
 reviewing multiple tutorials on line. The data in then preseneted as scatter sharts.
 
@@ -14,9 +14,6 @@ https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pan
 
 '''
 
-
-
-
 #Calculating the mean of Col 1
 
 # In order to run the data analysis and produce charts etc. I have to import these "modules"/"libraries" to perform the tasks.
@@ -25,15 +22,6 @@ import pandas as pd #https://www.pythonprogramming.net/data-analysis-python-pand
 import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
 import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
 #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot...learning seaborn 20/04
-from matplotlib import style
-#style.use('ggplot')
-
-
-
-
-#sns.set_palette('husl')
-#%matplotlib inline #
-
 
 data=pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
 
@@ -41,9 +29,9 @@ data=pd.read_csv('iris.csv') #pandas takes the Iris.csv file as the input
 #https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 #came on the "groupby" information from this site and also saw the "Agg" command introduced
 #https://intoli.com/blog/pandas-aggregation/ - further learning on the Agg functionality here
-#data[][data['Species'] =='Iris-setosa'].mean() #gets mean od SL in Setosa!!
-data.groupby('Species')# data is now "grouped" by Species of Iris (just kept as learning point for me...)
-data.groupby('Species').groups.keys()# dict_keys(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']) (just kept as learning point for me...)
+data[data['Species'] =='Iris-setosa'].mean() #gets mean of all the 4 setosa variales!! (5.006,3.418,1.464,0.244)
+data.groupby('Species')# data is now "grouped" by Species of Iris 
+data.groupby('Species').groups.keys()# dict_keys(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']) 
 
 stats = data.groupby('Species').agg(['mean','min','max'])
 
@@ -52,6 +40,9 @@ stats.reset_index() #tidies header column in table to align #https://intoli.com/
 
 stats.to_csv('Summary.csv')
 
+
+'''
+---------- "ROUGH WORK"-------
 
 #sns.FacetGrid(data, hue="Species")
 #data.plot.scatter('SL','SW',c='Species') #ref https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.scatter.html
@@ -83,5 +74,5 @@ stats.to_csv('Summary.csv')
 #Learning for today!!: Having a file cal;led pandas.py in the directory causes and Attribute error!
 #https://stackoverflow.com/questions/43696005/attributeerror-module-pandas-has-no-attribute-read-csv-python3-5
 
-
+'''
 

@@ -1,4 +1,4 @@
-Species,Sepal_Length min,Sepal_Length max,Sepal_Width min,Sepal_Width max,Petal_Length min,Petal_Length max,Petal_Width min,Petal_Width max
-Iris-setosa,4.3,5.8,2.3,4.4,1.0,1.9,0.1,0.6
-Iris-versicolor,4.9,7.0,2.0,3.4,3.0,5.1,1.0,1.8
-Iris-virginica,4.9,7.9,2.2,3.8,4.5,6.9,1.4,2.5
+Species,Sepal_Length mean,Sepal_Length min,Sepal_Length max,Sepal_Width mean,Sepal_Width min,Sepal_Width max,Petal_Length mean,Petal_Length min,Petal_Length max,Petal_Width mean,Petal_Width min,Petal_Width max
+Iris-setosa,5.006,4.3,5.8,3.418,2.3,4.4,1.464,1,1.9,0.244,0.1,0.6
+Iris-versicolor,5.936,4.9,7,2.77,2,3.4,4.26,3,5.1,1.326,1,1.8
+Iris-virginica,6.588,4.9,7.9,2.974,2.2,3.8,5.552,4.5,6.9,2.026,1.4,2.5
