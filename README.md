@@ -3,9 +3,9 @@
 ## Introduction
 This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module, and also to demonstrate that as the research progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
 
-Initially python coding was used to calculate and display basic staistics on the dataset and push output to print/file output in a Tabular format. (used Mean, Min, Max as sample indicators of significant attributes)...
+Initially python coding was used to calculate and display basic staistics on the dataset and push output to print/file output in a Tabular format. (used Mean, Min, Max and Standard Deviation as sample indicators of significant attributes)...
 
-Through further reaserch I since discovered Pandas, NumPy, Mathplotlib and seaborn as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
+Through further reaserch I since discovered ![Pandas]( https://pandas.pydata.org/), ![NumPy] (www.numpy.org/), ![Mathplotlib] (https://matplotlib.org/) and ![seaborn] (https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
 
 The drill down on the datasets and resultant graphics make it evident there are attributes to the species of Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
 It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning and related theories as it clearly profiles characteristics that lend themselves to "predict" a Species type dependent on the variable measured.
@@ -19,13 +19,15 @@ The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 19
 ##### So in summary:1. Sample Size = 150
 Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
 ### Inital Findings/Observations.
-first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Min,Max,Mode and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is kkkkkkk.txt (link)
+ ![First Statistics file](Simplemeasuresr4.py)  pulled the Irsidata set from a csv file and calculated out the Mean,Min,Max,Mode and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is [here](Output_of_SimpleMeasure_code)
 
 ##### Table 1:Measures of Variables
 ![Image of Print Output from python code](SimpleMeasuresr4_Output.PNG)
 
  
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
+A ![Summary Output file](Summary.txt)  of the ![Python script] (Applying_pandas_on_Iris_Table)
+ 
  
 ##### Sepal Length
 Species|Mean|Min|Max|StDev|
