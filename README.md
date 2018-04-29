@@ -75,7 +75,7 @@ Hoey (footnote) (Statistical Analysis of the Iris Flower Dataset, University of 
 http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 His data clearly demonstrates this
 
-![Link to Hoeys graphs](Hoey.png)
+![Link to Hoeys graphs](Hoey.PNG)
 
 Sepal length :virginica has the longest sepals,versicolor the medium length and setosa has the shortest
 Sepal width:setosa has the widest sepals,virginica the medium and versicolor has the narrowest of sepals 
