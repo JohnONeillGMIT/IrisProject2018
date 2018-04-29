@@ -86,7 +86,7 @@ Petal length: virginica has the longest petals, versicolor the medium length, an
 Petal width :Iris-Virginica has the widest petals, versicolor medium width,setosa the narrowest petals when compared to the other classes. 
 
 These seaborn eaxamples with code extracted from the tutorials visually illustrate these variations vey well.
- 
+  
  ![Petallength]( Violinsample_Petallength.png)
  ![Petalwidth](Violinsample_Petalwidth.png)
  ![Sepallength](Violinsample_Sepallength.png)
@@ -107,23 +107,7 @@ The goal of a discriminant analysis is to produce a simple function that, given 
 
 n Learning about pandas code and visualisation... 
 
-
-https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
-https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
-https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
-https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook
-https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot
-https://pandas.pydata.org/pandas-docs/stable/groupby.html 
-http://seaborn.pydata.org/generated/seaborn.pairplot.html 
-https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
-https://www.pythonprogramming.net/
-
-
-
-import pandas as pd #https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
-import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
-import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
-sns.set_palette('husl') #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot ...learning seaborn 20/04
+born 20/04
 
 Based on the feature of the 4 variables, Fisher developed a Linear dicriminant model to distinguish the species from eachother.
 DIn "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses already known groups assignments "to assign objects to one group among a number of groups.(2)
@@ -161,8 +145,7 @@ References:Examples and tutorials on how to create histograms and Scatterplots. 
 Background on Iris Data Set
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
-In the course of working through Python coding to interogate teh data for trends in the data and through researching available functions , modules etc . that surfaced during that effort, it has become apparent there are numerous modules and Python "Add-ons" that make the Data Analysis effort much easier and User friendly for the beginner "Programmer". Inital attempts to calculate the Statistical measures were "clumsy"... lenghty code and messy looking data tables.
-It became quickly apparent to me that running a Histogram for all the data combined does not add significant value, only comparisons between the Species and their characterisics demonstartes the relationships and groupings of measures bedendent on the variables.
+In the course of working through Python coding to interogate teh data for trends in the data and through researching available functions , modules etc . that surfaced during that effort, it has become apparent there are numerous modules and Python "Add-ons" that make the Data Analysis effort much easier and User friendly for the beginner "Programmer". Inital attempts to calculate the Statistical measures were "clumsy"... lenghty code and messy looking data tables.It became quickly apparent to me that running a Histogram for all the data combined does not add significant value, only comparisons between the Species and their characterisics demonstartes the relationships and groupings of measures bedendent on the variables.
 
 
 
@@ -171,8 +154,7 @@ This project has introduced the need to become familiar with Data Analysis tools
 matplotlib.pyplot, and seaborn. In order to improve the apparance of outputted data I have come accross modules that helped in various searches and tuturials online....beauti
 
 "Data Visualisation (https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
-We are going to look at two types of plots:Univariate plots to better understand each attribute.
-Multivariate plots to better understand the relationships between attributes.
+We are going to look at two types of plots:Univariate plots to better understand each attribute.Multivariate plots to better understand the relationships between attributes.
 We start with some univariate plots, that is, plots of each individual variable.... Raw data is Numeric... Histograms
  
  Multivariate Plots
@@ -181,8 +163,7 @@ First, let’s look at scatterplots of all pairs of attributes. This can be help
    
    
 The use of Data Analysis tools available provide many advantages
-Python modules provide a speedy method of completing complex mathematical computations and outputting not only deatial historical data but also provides a means to recommend/take further action based on new inputs.  
-   
+Python modules provide a speedy method of completing complex mathematical computations and outputting not only deatial historical data but also provides a means to recommend/take further action based on new inputs.     
  
 https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
