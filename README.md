@@ -1,51 +1,23 @@
-## IrisProject2018 Programming and Scripting Module Project
+# IrisProject2018 Programming and Scripting Module Project
 
 ## Introduction
-This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module, and also to demonstrate that as the research progressed, new tools and functionality commonly used in Data Science/ Data Analyitics workings were highlighted and introduced to the workings.
+This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module, and also to demonstrate that as the research progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
 
+Initially python coding was used to calculate and display basic staistics on the dataset and push output to print/file output in a Tabular format. (used Mean, Min, Max as sample indicators of significant attributes)...
 
-Initially python coding was used to calculate and display basic staistics on the dataset and pushing output to print/file output in a Tabular format. (used Mean, Min, Max as sample indicators of significant attributes)...
+Through further reaserch I since discovered Pandas, NumPy, Mathplotlib and seaborn as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
 
-Through further reaserch I have discovered Pandas, Numpy, Mathplotlib and seaborn as useful and more effective/efficient means of data mining as well as producing a highly effective visualistion of the data.
-
-The drill down on the datasets and resultant graphics make it evident there are attributes to the species or Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
-It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning and related theories
-
-1. Research background information about the data set and write a summary about it.2. Keep a list of references you used in completing the project.
-3. Download the data set and write some Python code to investigate it.
-
-4. Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set.
-l  A Python script will quickly do this for you.
-5. Write a summary of your investigations. 
-#6. Include supporting tables and graphics as you deem necessary.
-
-
-What does examining a data set entail
- How can Python be used?
-
-A Present Write up and code
-
+The drill down on the datasets and resultant graphics make it evident there are attributes to the species of Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
+It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning and related theories as it clearly profiles characteristics that lend themselves to "predict" a Species type dependent on the variable measured.
 
 "Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
-m
 Ref: https://www.youtube.com/watch?v=CmorAWRsCAw
-#
-README
- Summary of Data Set
-Investigations into Data Set
-Document how to run the Python code used to investigate the data set
-
-Clearly document what the code does
-S
-
 
 ### Background Information.
 The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". Ref the data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
-##### So in summary:
-1. Sample Size = 150
-m2. Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
-
+##### So in summary:1. Sample Size = 150
+Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
 ### Inital Findings/Observations.
 first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Min,Max,Mode and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is kkkkkkk.txt (link)
 
@@ -55,11 +27,11 @@ first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Mi
  
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
  
-##### Sepal LengthPSpecies|Mean|Min|Max|StDev|
+##### Sepal Length
+Species|Mean|Min|Max|StDev|
 ---|---|---|---|---|
 Iris-setosa|	5.006|	4.3	|5.8|0.3524
-Iris-versicolor|	5.936|	4.9|	7|0.5161
-Iris-virginica|	6.588|	4.9	|7.9|0.6358
+Iris-versicolor|	5.936|	4.9|	7|0.5161Iris-virginica|	6.588|	4.9	|7.9|0.6358
 
 ##### Sepal Width
 Species|Mean|Min|Max|StDev|
@@ -69,7 +41,8 @@ mIris-versicolor|	2.77|	2	|3.4|0.3137
 Iris-virginica	|2.974|	2.2|	3.8|0.3224
 
 ###### Petal Length
-Species|Mean|Min|Max|StDev|---|---|---|---|---|
+Species|Mean|Min|Max|StDev
+|---|---|---|---|---|
 Iris-setosa|	1.464|	1	|1.9|0.1735
 Iris-versicolor|	4.26	|3	|5.1|0.4699
 Iris-virginica	|5.552|	4.5|	6.9|0.5518
@@ -96,6 +69,8 @@ Producing Visualisations of the data measure further helps demonstate the gaps i
 Data visualisation is very important in that it is use continuously to explore the data set and prodive useful insights and to share them in a n effective way.Producing Visualisations of the data measure further helps demonstate the gaps in relative size
 ![Image Sepal Scatter](Sepal_Length_Width.png)
 ![Image of Petal Scatter](Petal_Length_Width.png)
+
+
 Hoey (footnote) (Statistical Analysis of the Iris Flower Dataset, University of Massachusetts At Lowell )
 http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 His data clearly demonstrates this
