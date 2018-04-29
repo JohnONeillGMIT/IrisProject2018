@@ -1,39 +1,45 @@
 ## IrisProject2018 Programming and Scripting Module Project
 
 ## Introduction
-This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module, and as the research progressed, helped introduce (and learn about) tools commonly used in Data Science/ Data Analyitics workings.
+This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module, and also to demonstrate that as the research progressed, new tools and functionality commonly used in Data Science/ Data Analyitics workings were highlighted and introduced to the workings.
+
 
 Initially python coding was used to calculate and display basic staistics on the dataset and pushing output to print/file output in a Tabular format. (used Mean, Min, Max as sample indicators of significant attributes)...
-Through further reaserch I discovered Pandas, Numpy, Mathplotlib and seaborn as useful an more effective means of data mining as well as producing a effective visualistion of the data.
-The data sets data and subsequent graphics make evident there are attributes to the species or Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
 
-It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning.
+Through further reaserch I have discovered Pandas, Numpy, Mathplotlib and seaborn as useful and more effective/efficient means of data mining as well as producing a highly effective visualistion of the data.
+
+The drill down on the datasets and resultant graphics make it evident there are attributes to the species or Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
+It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning and related theories
 
 1. Research background information about the data set and write a summary about it.2. Keep a list of references you used in completing the project.
 3. Download the data set and write some Python code to investigate it.
+
 4. Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set.
 l  A Python script will quickly do this for you.
 5. Write a summary of your investigations. 
 #6. Include supporting tables and graphics as you deem necessary.
 
+
 What does examining a data set entail
-How can Python be used?
+ How can Python be used?
 
 A Present Write up and code
+
 
 "Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
 m
 Ref: https://www.youtube.com/watch?v=CmorAWRsCAw
 #
 README
-Summary of Data Set
+ Summary of Data Set
 Investigations into Data Set
 Document how to run the Python code used to investigate the data set
+
 Clearly document what the code does
 S
 
 
- ### Background Information.
+### Background Information.
 The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". Ref the data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
 ##### So in summary:
@@ -46,6 +52,9 @@ first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Mi
 ##### Table 1:Measures of Variables
 ![Image of Print Output from python code](SimpleMeasuresr4_Output.PNG)
 
+ 
+After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
+ 
 ##### Sepal Length
 Species|Mean|Min|Max|
 ---|---|---|---|
