@@ -30,7 +30,7 @@ https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-se
 
 
 Source data was verified for accuracy from the Iris.csv input file.
-![Sample of verified output]()
+![Sample of verified output](verifiedoutput.PNG)
 
 
 ### Inital Findings/Observations.
