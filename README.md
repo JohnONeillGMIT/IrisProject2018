@@ -32,7 +32,7 @@ https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-se
 Source data was verified for accuracy from the Iris.csv input file.
 ![Sample of verified output](verifiedoutput.PNG)
 
- 
+  
 ### Inital Findings/Observations.
 [First Statistics file](Simplemeasuresr4.py)  pulled the Iris dataset from a csv file and calculated out the Mean, Min, Max, and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is [here](Output_of_SimpleMeasure_code)
  
@@ -55,7 +55,8 @@ Iris-virginica|	6.588|	4.9	|7.9|0.6358
 ##### Sepal Width
 Species|Mean|Min|Max|StDev|
 ---|---|---|---|---|
-Iris-setosa|	3.418|	2.3|	4.4|0.3810Iris-versicolor|	2.77|	2	|3.4|0.3137
+Iris-setosa|	3.418|	2.3|	4.4|0.3810 
+Iris-versicolor|	2.77|	2	|3.4|0.3137
 Iris-virginica	|2.974|	2.2|	3.8|0.3224 
 
 ###### Petal Length
