@@ -96,7 +96,8 @@ Also the width od the setosa species is heavily contrasted to its fellow Iris sp
 
 Producing Visualisations of the data measure further helps demonstate the gaps in relative size.
 Data visualisation is very important in that it is use continuously to explore the data set and prodive useful insights and to share them in a n effective way.Producing Visualisations of the data measure further helps demonstate the gaps in relative size
-
+![Image Sepal Scatter]()
+![Image of Petal Scatter]()
 Hoey (footnote) (Statistical Analysis of the Iris Flower Dataset, University of Massachusetts At Lowell )
 http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 His data clearly demonstrates this
