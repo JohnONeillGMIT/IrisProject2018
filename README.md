@@ -5,7 +5,7 @@
 This project sets out to investigate the [Iris Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/)  using Python code learnt in the Module, and also to demonstrate that as the research/learnings progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
 
 Initially I used Python coding to calculate and display basic staistics on the dataset and push output to print/file output in a Tabular format. (used Mean, Min, Max and Standard Deviation as sample indicators of significant attributes).
-Through further reaserch I have since discovered [Pandas](https://pandas.pydata.org/), [NumPy](www.numpy.org/), [Mathplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
+Through further research I have since discovered [Pandas](https://pandas.pydata.org/), [NumPy](www.numpy.org/), [Mathplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
 
 The drill down on the dataset and resultant graphics make it evident there are attributes to the species of Iris that indicate common groupings that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
 
