@@ -1,4 +1,4 @@
-# IrisProject2018 Programming and Scripting Module Project
+## IrisProject2018 Programming and Scripting Module Project
 
 # Introduction
 
@@ -20,7 +20,7 @@ https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-se
 ### Background Information.
  The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". The data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
- ### So in summary:
+### So in summary:
 1. Sample Size = 150
 2. Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)
 3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
@@ -50,7 +50,7 @@ Iris-versicolor|	5.936|	4.9|	7|0.5161
 Iris-virginica|	6.588|	4.9	|7.9|0.6358
 ##### Sepal Width
 Species|Mean|Min|Max|StDev|
-*---|---|---|---|---|
+---|---|---|---|---|
 Iris-setosa|	3.418|	2.3|	4.4|0.3810 
 Iris-versicolor|	2.77|	2	|3.4|0.3137
 Iris-virginica	|2.974|	2.2|	3.8|0.3224 
@@ -72,7 +72,7 @@ Iris-virginica|	2.026	|1.4|	2.5|0.2746
 
 As a first pass review of the data output one can make certain observations to prompt further review.
  
-Sepals: Average Length of the setosa is generlly smaller that versicolor and virginica, which are close in measure. The oppisite applies o the Sepal Widths. In this case the data shows setosa to be signigicantly wider that both alternatives
+Sepals: Average Length of the setosa is generlly smaller that versicolor and virginica, which are close in measure. The oppsite applies o the Sepal Widths. In this case the data shows setosa to be signigicantly wider that both alternatives
 ... setosa petal shown to be "short and wide", while the other 2 are "long and narrow"
 
 Petals: The average length of setosa is significantly shorter at a maximum lenght of 1.9cm. In contrast the shortest of verisolcor and virginica are substantially longer that the setosa at 3cm and 4.5cm respectively.Also the width of the setosa species is heavily contrasted to its fellow Iris species.
