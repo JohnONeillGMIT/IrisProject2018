@@ -56,7 +56,7 @@ first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Mi
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
  
 ##### Sepal Length
-Species|Mean|Min|Max|StDev|
+PSpecies|Mean|Min|Max|StDev|
 ---|---|---|---|---|
 Iris-setosa|	5.006|	4.3	|5.8|0.3524
 Iris-versicolor|	5.936|	4.9|	7|0.5161
@@ -96,8 +96,8 @@ Also the width od the setosa species is heavily contrasted to its fellow Iris sp
 
 Producing Visualisations of the data measure further helps demonstate the gaps in relative size.
 Data visualisation is very important in that it is use continuously to explore the data set and prodive useful insights and to share them in a n effective way.Producing Visualisations of the data measure further helps demonstate the gaps in relative size
-![Image Sepal Scatter]()
-![Image of Petal Scatter]()
+![Image Sepal Scatter](Sepal_Length_Width.png)
+![Image of Petal Scatter](Petal_Length_Width.png)
 Hoey (footnote) (Statistical Analysis of the Iris Flower Dataset, University of Massachusetts At Lowell )
 http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 His data clearly demonstrates this
