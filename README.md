@@ -1,6 +1,6 @@
+ 
 ## IrisProject2018 Programming and Scripting Module Project
-
-# Introduction
+### Introduction
 
 This project sets out to investigate the [Iris Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/)  using Python code learnt in the Module, and also to demonstrate that as the research/learnings progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
 
@@ -26,7 +26,7 @@ https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-se
 3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
 
 
-Source data was verified for accuracy from the Iris.csv input file.
+Source data wasverified for accuracy from the Iris.csv input file.
 ![Sample of verified output](verifiedoutput.PNG)
 
   
@@ -48,6 +48,7 @@ Species|Mean|Min|Max|StDev|
 Iris-setosa|	5.006|	4.3	|5.8|0.3524
 Iris-versicolor|	5.936|	4.9|	7|0.5161 
 Iris-virginica|	6.588|	4.9	|7.9|0.6358
+
 ##### Sepal Width
 Species|Mean|Min|Max|StDev|
 ---|---|---|---|---|
@@ -77,7 +78,6 @@ Sepals: Average Length of the setosa is generlly smaller that versicolor and vir
 
 Petals: The average length of setosa is significantly shorter at a maximum lenght of 1.9cm. In contrast the shortest of verisolcor and virginica are substantially longer that the setosa at 3cm and 4.5cm respectively.Also the width of the setosa species is heavily contrasted to its fellow Iris species.
 ... setosa is both substantially shorter and narrower than verisolcor and virginica
-
 
 Producing visualisations of the data measure further helps demonstate the gaps in relative size.
 Data Visualisation is very important in that it is used continuously to explore the data set and prodive useful insights and to share them in an effective way. Producing Visualisations of the data measure further helps demonstate the gaps in relative sizes.
@@ -122,29 +122,11 @@ In "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on A
 
 #### Data Mining
 The data set is used demonstrating machine learning is what is described as "Supervised Learning". There is a clear relationship between the known input data available and the expected outputs.
-
 Assumptions..
 
 "That your data is Gaussian, that each variable is is shaped like a bell curve when plotted.
  That each attribute has the same variance, that values of each variable vary around the mean by the same amount on average."
  
-T
-
-
-
-It is apparent that this data set is commmonly used as sample data inputted to demonstrate "machine learning" and Predictive Data analyitics.
-
-An inital review of the data shows that the characteristics of the Iris-setosa are distinct in measurements from the Iris-versicolor and virginica.
-
-
-The analysis of the data and use of graphs gives useful insight to the characteristics of the 3 species of Iris.An inital review of the data shows that the characteristics of the Iris-setosa are distinct in measurements from the Iris-versicolor and virginica.
-
-
-
-References:Examples and tutorials on how to create histograms and Scatterplots. Based on researching the Data Set the scattergram type graphs are effective illustrations for the 3 different Species of Iris speciments.
-
-
-
 ### Learnings
 
 In the course of working through Python coding to interogate the data for trends in the data and through researching available functions , modules etc. that surfaced during that effort, it has become apparent there are numerous modules and Python "Add-ons" that make the Data Analysis effort much easier and User friendly for the beginner "Programmer". Inital attempts to calculate the Statistical measures were "clumsy"... lenghty code and messy looking data tables.It became quickly apparent to me that running a Histogram for all the data combined does not add significant value, only comparisons between the Species and their characterisics demonstartes the relationships and groupings of measures dependent on the variables.
@@ -165,8 +147,8 @@ Python modules provide a speedy method of completing complex mathematical comput
  
 References:Examples and tutorials on how to create histograms and Scatterplots. Based on researching the Data Set the scattergram type graphs are effective illustrations for the 3 different Species of Iris speciments.
 
-##### key learnings and references in code taken from these sites
-##### These are references are specifically called out in the command files
+#### key learnings and references in code taken from these sites 
+#### These are references are specifically called out in the command files
 
 https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
