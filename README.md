@@ -70,7 +70,7 @@ Iris-setosa|	0.244|	0.1|	0.6|0.1072
 Iris-versicolor|	1.326|	1	|1.8|0.1977
 Iris-virginica|	2.026	|1.4|	2.5|0.2746
 
-
+ 
 As a first pass review of the data output one can make certain observations to prompt further review.
  
 Sepals: Average Length of the setosa is generlly smaller that versicolor and virginica, which are close in measure. The oppsite applies o the Sepal Widths. In this case the data shows setosa to be signigicantly wider that both alternatives
@@ -93,7 +93,7 @@ Hoey's data reproduced here clearly demonstrates this also. ![Statistical Analys
 
 As he calls out;
 "Sepal length :virginica has the longest sepals,versicolor the medium length and setosa has the shortest
-Sepal width:setosa has the widest sepals,virginica the medium and versicolor has the narrowest of sepals 
+ Sepal width:setosa has the widest sepals,virginica the medium and versicolor has the narrowest of sepals 
 
 Petal length: virginica has the longest petals, versicolor the medium length, and setosa has the shortest petals
 ... as hoey also points out the "points are partitioned pretty 	cleanly with little overlap" (Hoey)
@@ -110,37 +110,22 @@ These seaborn examples with code extracted from the tutorials visually illustrat
  
  
  
-####Linear Discriminant Analysis
+#### Linear Discriminant Analysis
 Based on the feature of the 4 variables, Fisher developed a Linear dicriminant model to distinguish the species from eachother.
- 
- 
 The goal of a discriminant analysis is to produce a simple function that, given the four measurements, will classify a flower correctly. This is the beginning of creating “predictors” in order to try to make a more educated guess on a record in a dataset.... the basis of machine learning.
-
 
 In "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses already known groups assignments "to assign objects to one group among a number of groups.https://www.researchoptimus.com/article/what-is-descriminant-analysis.php
 
 
 #### Data Mining
 The data set is used demonstrating machine learning is what is described as "Supervised Learning". There is a clear relationship between the known input data available and the expected outputs.
-Assumptions..
-
-"That your data is Gaussian, that each variable is is shaped like a bell curve when plotted.
- That each attribute has the same variance, that values of each variable vary around the mean by the same amount on average."
  
-### Learnings
+#### Learnings
 
-In the course of working through Python coding to interogate the data for trends in the data and through researching available functions , modules etc. that surfaced during that effort, it has become apparent there are numerous modules and Python "Add-ons" that make the Data Analysis effort much easier and User friendly for the beginner "Programmer". Inital attempts to calculate the Statistical measures were "clumsy"... lenghty code and messy looking data tables.It became quickly apparent to me that running a Histogram for all the data combined does not add significant value, only comparisons between the Species and their characterisics demonstartes the relationships and groupings of measures dependent on the variables.
+In the course of working through Python coding to interogate the data for trends in the data and through researching available functions , modules etc. that surfaced during that effort, it has become apparent there are numerous modules and Python "Add-ons" that make the Data Analysis effort much easier and user friendly for the beginner "Programmer". Inital attempts to calculate the Statistical measures were "clumsy"... lenghty code and messy looking data tables.It became quickly apparent to me that running a Histogram for all the data combined does not add significant value, only comparisons between the Species and their characterisics demonstartes the relationships and groupings of measures dependent on the variables.
 
-This project has reinforced the abolute need to become familiar with Data Analysis tools supported by Python such as Numpy, Pandas, matplotlib.pyplot, and seaborn. In order to improve the apparance of outputted data I have come accross modules that helped in various searches and tuturials 
+This project has reinforced the abolute need to become mfamiliar with Data Analysis tools supported by Python such as Numpy, Pandas, matplotlib.pyplot, and seaborn. In order to improve the apparance of outputted data I have come accross modules that helped in various searches and tuturials 
 
-"Data Visualisation (https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
-We are going to look at two types of plots:Univariate plots to better understand each attribute.Multivariate plots to better understand the relationships between attributes.
-We start with some univariate plots, that is, plots of each individual variable.... Raw data is Numeric... Histograms
- 
-Multivariate Plots
-Now we can look at the interactions between the variables.
-First, let’s look at scatterplots of all pairs of attributes. This can be helpful to spot structured relationships between input variables".
-   
    
 The use of Data Analysis tools available provide many advantages
 Python modules provide a speedy method of completing complex mathematical computations and outputting not only deatial historical data but also provides a means to recommend/take further action based on new inputs.     
