@@ -1,6 +1,6 @@
 # IrisProject2018 Programming and Scripting Module Project
 
-## Introduction
+# Introduction
 
 This project sets out to investigate the [Iris Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/)  using Python code learnt in the Module, and also to demonstrate that as the research/learnings progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
 
@@ -10,20 +10,17 @@ Through further research I have since discovered [Pandas](https://pandas.pydata.
 The drill down on the dataset and resultant graphics make it evident there are attributes to the species of Iris that indicate common groupings that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
 
 It is also clear why the Iris dataset is commonly used as sample data to demonstrate Machine learning and related subjects as it profiles characteristics that lend themselves to "predict" a Species type dependent on the variable measured.
-
 The guiding principle here is that "Data Science or data analysis is the process of analyzing a large dset of data points to get answers on questions related to tht data" [YouTube](https://www.youtube.com/watch?v=CmorAWRsCAw)
+The key to good data analytics it is argued is that stored information is most useful when it is used to produce new information of value... it the case of the Iris, the various lenghts , widths etc. of a given petal should "predict" what particular species of the plant is at hand.
 
-The key to good data analyitics it is argued is that stored inforamtion is most useful in that it is used to produce new information (Cokins)... it the case of the Iris, the various lenghts , widths etc. of a given petal should "predict" what particular species of the plant is at hand.
-
-|"in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods"
+"in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods"
 https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
 
 
 ### Background Information.
  The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". The data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
-
-##### So in summary:
+ ### So in summary:
 1. Sample Size = 150
 2. Variables measured ("Inputs") = 4 (length and the width of the sepals and petals, in centimetres)
 3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
@@ -33,18 +30,17 @@ Source data was verified for accuracy from the Iris.csv input file.
 ![Sample of verified output](verifiedoutput.PNG)
 
   
-### Inital Findings/Observations.
+## Inital Findings/Observations.
 [First Statistics file](Simplemeasuresr4.py)  pulled the Iris dataset from a csv file and calculated out the Mean, Min, Max, and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is [here](Output_of_SimpleMeasure_code)
  
 
-##### Table 1:Measures of Variables
+### Table 1:Measures of Variables
 
 ![Image of Print Output from python code](SimpleMeasuresr4_Output.PNG)
 
  
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
-[Summary Output file](Summary.txt)  of the [Python script](Applying_pandas_on_Iris_Table.py)
-  
+[Summary Output file](Summary.txt)  of the [Python script](Applying_pandas_on_Iris_Table.py)  
  
 ##### Sepal Length
 Species|Mean|Min|Max|StDev|
@@ -54,19 +50,19 @@ Iris-versicolor|	5.936|	4.9|	7|0.5161
 Iris-virginica|	6.588|	4.9	|7.9|0.6358
 ##### Sepal Width
 Species|Mean|Min|Max|StDev|
----|---|---|---|---|
+*---|---|---|---|---|
 Iris-setosa|	3.418|	2.3|	4.4|0.3810 
 Iris-versicolor|	2.77|	2	|3.4|0.3137
 Iris-virginica	|2.974|	2.2|	3.8|0.3224 
 
-###### Petal Length
+##### Petal Length
 Species|Mean|Min|Max|StDev
 |---|---|---|---|---|
 Iris-setosa|	1.464|	1	|1.9|0.1735
 Iris-versicolor|	4.26	|3	|5.1|0.4699
 Iris-virginica	|5.552|	4.5|	6.9|0.5518
 
-###### Petal Width
+##### Petal Width
 Species|Mean|Min|Max|StDev|
 ---|---|---|---|---|
 Iris-setosa|	0.244|	0.1|	0.6|0.1072
