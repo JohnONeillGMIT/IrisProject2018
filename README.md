@@ -26,7 +26,7 @@ https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-se
 3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
 
 
-Source data wasverified for accuracy from the Iris.csv input file.
+Source data was verified for accuracy from the Iris.csv input file.
 ![Sample of verified output](verifiedoutput.PNG)
 
   
