@@ -35,7 +35,7 @@ Source data was verified for accuracy from the Iris.csv input file.
 
 ### Inital Findings/Observations.
 [First Statistics file](Simplemeasuresr4.py)  pulled the Iris dataset from a csv file and calculated out the Mean, Min, Max, and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is [here](Output_of_SimpleMeasure_code)
-
+ 
 
 ##### Table 1:Measures of Variables
 
@@ -45,7 +45,7 @@ Source data was verified for accuracy from the Iris.csv input file.
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
 
 [Summary Output file](Summary.txt)  of the [Python script](Applying_pandas_on_Iris_Table.py)
- 
+  
  
 ##### Sepal Length
 Species|Mean|Min|Max|StDev|
@@ -68,7 +68,7 @@ Iris-setosa|	1.464|	1	|1.9|0.1735
 Iris-versicolor|	4.26	|3	|5.1|0.4699
 Iris-virginica	|5.552|	4.5|	6.9|0.5518
 
-######Petal Width
+###### Petal Width
 Species|Mean|Min|Max|StDev|
 ---|---|---|---|---|
 Iris-setosa|	0.244|	0.1|	0.6|0.1072
