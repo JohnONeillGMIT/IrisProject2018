@@ -5,7 +5,7 @@ This project sets out to investigate the "Iris Dataset" using Python code learnt
 
 Initially python coding was used to calculate and display basic staistics on the dataset and push output to print/file output in a Tabular format. (used Mean, Min, Max and Standard Deviation as sample indicators of significant attributes)...
 
-Through further reaserch I since discovered ![Pandas]( https://pandas.pydata.org/), ![NumPy] (www.numpy.org/), ![Mathplotlib] (https://matplotlib.org/) and ![seaborn] (https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
+Through further reaserch I since discovered ![Pandas]( https://pandas.pydata.org/), ![NumPy](www.numpy.org/), ![Mathplotlib](https://matplotlib.org/) and ![seaborn](https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
 
 The drill down on the datasets and resultant graphics make it evident there are attributes to the species of Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
 It is clear why the Iris data set is commonly used as sample data to demonstrate Machine learning and related theories as it clearly profiles characteristics that lend themselves to "predict" a Species type dependent on the variable measured.
@@ -26,7 +26,7 @@ Variables measured ("Inputs") = 4 (length and the width of the sepals and petals
 
  
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
-A ![Summary Output file](Summary.txt)  of the ![Python script] (Applying_pandas_on_Iris_Table)
+A ![Summary Output file](Summary.txt)  of the ![Python script](Applying_pandas_on_Iris_Table.py)
  
  
 ##### Sepal Length
