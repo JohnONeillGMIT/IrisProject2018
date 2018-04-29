@@ -1,11 +1,10 @@
-##IrisProject2018 Programming and Scripting Module Project
+## IrisProject2018 Programming and Scripting Module Project
 
-##Introduction
+## Introduction
 
 This project sets out to investigate the ![Iris Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/)  using Python code learnt in the Module, and also to demonstrate that as the research/learnings progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
 
 Initially I used Python coding to calculate and display basic staistics on the dataset and push output to print/file output in a Tabular format. (used Mean, Min, Max and Standard Deviation as sample indicators of significant attributes).
-
 Through further reaserch I have since discovered ![Pandas](https://pandas.pydata.org/), ![NumPy](www.numpy.org/), ![Mathplotlib](https://matplotlib.org/) and ![seaborn](https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
 
 The drill down on the dataset and resultant graphics make it evident there are attributes to the species of Iris that indicate common groupings that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
@@ -16,12 +15,12 @@ The guiding principle here is that "Data Science or data analysis is the process
 
 The key to good data analyitics it is argued is that stored inforamtion is most useful in that it is used to produce new information (Cokins)... it the case of the Iris, the various lenghts , widths etc. of a given petal should "predict" what particular species of the plant is at hand.
 
-"in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods"
+|"in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods"
 https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
 
 
 ### Background Information.
-The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". The data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
+ The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". The data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
 
 ##### So in summary:
@@ -44,21 +43,21 @@ After discovering the Numpy & Panda modules, I was able to pull the required dat
 ![Summary Output file](Summary.txt)  of the ![Python script](Applying_pandas_on_Iris_Table.py)
  
  
-#####Sepal Length
+##### Sepal Length
 Species|Mean|Min|Max|StDev|
  ---|---|---|---|---|
 Iris-setosa|	5.006|	4.3	|5.8|0.3524
 Iris-versicolor|	5.936|	4.9|	7|0.5161 
 Iris-virginica|	6.588|	4.9	|7.9|0.6358
 
-#####Sepal Width
+##### Sepal Width
 Species|Mean|Min|Max|StDev|
 ---|---|---|---|---|
 Iris-setosa|	3.418|	2.3|	4.4|0.3810
 Iris-versicolor|	2.77|	2	|3.4|0.3137
 Iris-virginica	|2.974|	2.2|	3.8|0.3224 
 
-######Petal Length
+###### Petal Length
 Species|Mean|Min|Max|StDev
 |---|---|---|---|---|
 Iris-setosa|	1.464|	1	|1.9|0.1735
@@ -148,7 +147,7 @@ References:Examples and tutorials on how to create histograms and Scatterplots. 
 
 
 
-###Learnings
+### Learnings
 
 In the course of working through Python coding to interogate the data for trends in the data and through researching available functions , modules etc. that surfaced during that effort, it has become apparent there are numerous modules and Python "Add-ons" that make the Data Analysis effort much easier and User friendly for the beginner "Programmer". Inital attempts to calculate the Statistical measures were "clumsy"... lenghty code and messy looking data tables.It became quickly apparent to me that running a Histogram for all the data combined does not add significant value, only comparisons between the Species and their characterisics demonstartes the relationships and groupings of measures dependent on the variables.
 
@@ -169,7 +168,7 @@ Python modules provide a speedy method of completing complex mathematical comput
 References:Examples and tutorials on how to create histograms and Scatterplots. Based on researching the Data Set the scattergram type graphs are effective illustrations for the 3 different Species of Iris speciments.
 
 ##### key learnings and references in code taken from these sites
-#####These are references are specifically called out in the command files
+##### These are references are specifically called out in the command files
 
 https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
 https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
