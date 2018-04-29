@@ -105,9 +105,28 @@ These seaborn eaxamples with code extracted from the tutorials visually illustra
 The goal of a discriminant analysis is to produce a simple function that, given the four measurements, will classify a flower correctly. This is the beginning of creating “predictors” in order to try to make a more educated guess on a record in a dataset.
 
 
+n Learning about pandas code and visualisation... 
+
+
+https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
+https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
+https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
+https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook
+https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot
+https://pandas.pydata.org/pandas-docs/stable/groupby.html 
+http://seaborn.pydata.org/generated/seaborn.pairplot.html 
+https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+https://www.pythonprogramming.net/
+
+
+
+import pandas as pd #https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
+import matplotlib.pyplot as plt #https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
+import seaborn as sns #https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook NB
+sns.set_palette('husl') #https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot ...learning seaborn 20/04
 
 Based on the feature of the 4 variables, Fisher developed a Linear dicriminant model to distinguish the species from eachother.
-In "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses already known groups assignments "to assign objects to one group among a number of groups.(2)
+DIn "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses already known groups assignments "to assign objects to one group among a number of groups.(2)
 e
 (2)https://www.researchoptimus.com/article/what-is-descriminant-analysis.php
 
@@ -116,8 +135,8 @@ The data set is used demonstrating machine learning is what is described as "Sup
 Assumptions..
 
 "That your data is Gaussian, that each variable is is shaped like a bell curve when plotted.
-That each attribute has the same variance, that values of each variable vary around the mean by the same amount on average."
-
+ That each attribute has the same variance, that values of each variable vary around the mean by the same amount on average."
+ 
 T
 
 
@@ -164,5 +183,14 @@ First, let’s look at scatterplots of all pairs of attributes. This can be help
 The use of Data Analysis tools available provide many advantages
 Python modules provide a speedy method of completing complex mathematical computations and outputting not only deatial historical data but also provides a means to recommend/take further action based on new inputs.  
    
-  Sp 
+ 
+https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
+https://www.pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
+https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py
+https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset/notebook
+https://seaborn.pydata.org/tutorial/distributions.html?highlight=scatterplot
+https://pandas.pydata.org/pandas-docs/stable/groupby.html 
+http://seaborn.pydata.org/generated/seaborn.pairplot.html 
+https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+https://www.pythonprogramming.net/
    
