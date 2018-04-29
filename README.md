@@ -56,31 +56,32 @@ first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Mi
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
  
 ##### Sepal Length
-Species|Mean|Min|Max|
----|---|---|---|
-Iris-setosa|	5.006|	4.3	|5.8|
-Iris-versicolor|	5.936|	4.9|	7|
-Iris-virginica|	6.588|	4.9	|7.9|
+Species|Mean|Min|Max|StDev|
+---|---|---|---|---|
+Iris-setosa|	5.006|	4.3	|5.8|0.3524
+Iris-versicolor|	5.936|	4.9|	7|0.5161
+Iris-virginica|	6.588|	4.9	|7.9|0.6358
+
 ##### Sepal Width
-Species|Mean|Min|Max|
----|---|---|---|
-Iris-setosa|	3.418|	2.3|	4.4
-Iris-versicolor|	2.77|	2	|3.4
-Iris-virginica	|2.974|	2.2|	3.8
+Species|Mean|Min|Max|StDev|
+---|---|---|---|---|
+Iris-setosa|	3.418|	2.3|	4.4|0.3810
+Iris-versicolor|	2.77|	2	|3.4|0.3137
+Iris-virginica	|2.974|	2.2|	3.8|0.3224
 
 ###### Petal Length
-Species|Mean|Min|Max|
----|---|---|---|
-Iris-setosa|	1.464|	1	|1.9
-Iris-versicolor|	4.26	|3	|5.1
-Iris-virginica	|5.552|	4.5|	6.9
+Species|Mean|Min|Max|StDev|
+---|---|---|---|---|
+Iris-setosa|	1.464|	1	|1.9|0.1735
+Iris-versicolor|	4.26	|3	|5.1|0.4699
+Iris-virginica	|5.552|	4.5|	6.9|0.5518
 
 ###### Petal Width
-Species|Mean|Min|Max|
----|---|---|---|
-Iris-setosa|	0.244|	0.1|	0.6
-Iris-versicolor|	1.326|	1	|1.8
-Iris-virginica|	2.026	|1.4|	2.5
+Species|Mean|Min|Max|StDev|
+---|---|---|---|---|
+Iris-setosa|	0.244|	0.1|	0.6|0.1072
+Iris-versicolor|	1.326|	1	|1.8|0.1977
+Iris-virginica|	2.026	|1.4|	2.5|0.2746
 
 A As a first pass review of the data output one can make certain observations to prompt further rview
 
@@ -92,7 +93,28 @@ Petals: The average length of setosa is significantly shorter at a maximum lengh
 Also the width od the setosa species is heavily contrasted to its fellow Iris species.
 .... setosa id both substantially shorter and nawwower that V&V
 
-Producing Visualisations of the data measure further helps demonstate the gaps in relative size
+
+Producing Visualisations of the data measure further helps demonstate the gaps in relative size.
+Data visualisation is very important in that it is use continuously to explore the data set and prodive useful insights and to share them in a n effective way.Producing Visualisations of the data measure further helps demonstate the gaps in relative size
+
+Hoey (footnote) (Statistical Analysis of the Iris Flower Dataset, University of Massachusetts At Lowell )
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+His data clearly demonstrates this
+
+Linke t graphs
+
+Sepal length :virginica has the longest sepals,versicolor the medium length and setosa has the shortest
+Sepal width:setosa has the widest sepals,virginica the medium and versicolor has the narrowest of sepals 
+
+Petal length: virginica has the longest petals, versicolor the medium length, and setosa has the shortest petals
+... as hoey also points out the "points are partitioned pretty 	cleanly with little overlap" (Hoey)
+
+Petal width :Iris-Virginica has the widest petals, versicolor medium width,setosa the narrowest petals when compared to the other classes. 
+
+
+The goal of a discriminant analysis is to produce a simple function that, given the four measurements, will classify a flower correctly. This is the beginning of creating “predictors” in order to try to make a more educated guess on a record in a dataset.
+
+
 
 Based on the feature of the 4 variables, Fisher developed a Linear dicriminant model to distinguish the species from eachother.
 In "Linear Discriminant Analysis for Machine Learning"(1) By Jason Brownlee on April 6, 2016 in Machine Learning Algorithms (https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/) The (bold)Linear discriminant analysis (LDA) is seen as the preferred linear classification technique where you have more than two classes. Statistical data derived from available data is used to make predictions based on LDA equations based on certain assumptions. The statistical tools uses already known groups assignments "to assign objects to one group among a number of groups.(2)
@@ -149,7 +171,8 @@ Now we can look at the interactions between the variables.
 First, let’s look at scatterplots of all pairs of attributes. This can be helpful to spot structured relationships between input variables".
    
    
-   
+The use of Data Analysis tools available provide many advantages
+Python modules provide a speedy method of completing complex mathematical computations and outputting not only deatial historical data but also provides a means to recommend/take further action based on new inputs.  
    
   Sp 
    
