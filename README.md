@@ -2,16 +2,16 @@
 
 ## Introduction
 
-This project sets out to investigate the ![Iris Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/)  using Python code learnt in the Module, and also to demonstrate that as the research/learnings progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
+This project sets out to investigate the [Iris Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/)  using Python code learnt in the Module, and also to demonstrate that as the research/learnings progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
 
 Initially I used Python coding to calculate and display basic staistics on the dataset and push output to print/file output in a Tabular format. (used Mean, Min, Max and Standard Deviation as sample indicators of significant attributes).
-Through further reaserch I have since discovered ![Pandas](https://pandas.pydata.org/), ![NumPy](www.numpy.org/), ![Mathplotlib](https://matplotlib.org/) and ![seaborn](https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
+Through further reaserch I have since discovered [Pandas](https://pandas.pydata.org/), [NumPy](www.numpy.org/), [Mathplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
 
 The drill down on the dataset and resultant graphics make it evident there are attributes to the species of Iris that indicate common groupings that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
 
 It is also clear why the Iris dataset is commonly used as sample data to demonstrate Machine learning and related subjects as it profiles characteristics that lend themselves to "predict" a Species type dependent on the variable measured.
 
-The guiding principle here is that "Data Science or data analysis is the process of analyzing a large dset of data points to get answers on questions related to tht data" ![YouTube](https://www.youtube.com/watch?v=CmorAWRsCAw)
+The guiding principle here is that "Data Science or data analysis is the process of analyzing a large dset of data points to get answers on questions related to tht data" [YouTube](https://www.youtube.com/watch?v=CmorAWRsCAw)
 
 The key to good data analyitics it is argued is that stored inforamtion is most useful in that it is used to produce new information (Cokins)... it the case of the Iris, the various lenghts , widths etc. of a given petal should "predict" what particular species of the plant is at hand.
 
