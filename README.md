@@ -1,11 +1,12 @@
-#IrisProject2018 Programming and Scripting Module Project
+ 
+IrisProject2018 Programming and Scripting Module Project
 
- ##Introduction
+##Introduction
 
 This project sets out to investigate the "Iris Dataset" using Python code learnt in the Module, and also to demonstrate that as the research progressed, new tools and functionality commonly used in Data Science/ Data Analyitics were highlighted and introduced to the workings.
 
 Initially python coding was used to calculate and display basic staistics on the dataset and push output to print/file output in a Tabular format. (used Mean, Min, Max and Standard Deviation as sample indicators of significant attributes)...
-I
+
 Through further reaserch I since discovered ![Pandas]( https://pandas.pydata.org/), ![NumPy](www.numpy.org/), ![Mathplotlib](https://matplotlib.org/) and ![seaborn](https://seaborn.pydata.org) as useful and more effective/efficient means of data mining as well as producing highly effective visualistion of the data.
 
 The drill down on the datasets and resultant graphics make it evident there are attributes to the species of Iris that indicate common groupings or "clusters" that lend themselves as predictors of species type dependent on the characteristics of the 4 variables.
@@ -16,8 +17,7 @@ It is clear why the Iris data set is commonly used as sample data to demonstrate
 "Data Science or data analysis is theprocess of analyzing a large dset of data points to get answers on questions related to tht data"
 Ref: https://www.youtube.com/watch?v=CmorAWRsCAw
 
-### Background Information.
-The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". Ref the data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
+### Background Information.The Iris Dataset is a sample of data collected at the time for  R.A. Fisher's 1936 paper, "The Use of Multiple Measurements in Taxonomic Problems". Ref the data set contains measures of 4 variables on 3 Species of the Iris plant(Iris setosa, Iris virginica and Iris versicolor). The four measures are: the length and the width of the sepals and petals, in centimetres. (https://en.wikipedia.org/wiki/Iris_flower_data_set). The sample size is 150.
 
 
 ##### So in summary:1. Sample Size = 150
@@ -32,10 +32,10 @@ After discovering the Numpy & Panda modules, I was able to pull the required dat
  
  
 ##### Sepal Length
-!Species|Mean|Min|Max|StDev|
+Species|Mean|Min|Max|StDev|
  ---|---|---|---|---|
-ris-setosa|	5.006|	4.3	|5.8|0.3524
-XIris-versicolor|	5.936|	4.9|	7|0.5161 
+Iris-setosa|	5.006|	4.3	|5.8|0.3524
+Iris-versicolor|	5.936|	4.9|	7|0.5161 
 Iris-virginica|	6.588|	4.9	|7.9|0.6358
 
 ##### Sepal WidthSpecies|Mean|Min|Max|StDev|
@@ -43,17 +43,19 @@ Iris-virginica|	6.588|	4.9	|7.9|0.6358
 Iris-setosa|	3.418|	2.3|	4.4|0.3810
 Iris-versicolor|	2.77|	2	|3.4|0.3137
 Iris-virginica	|2.974|	2.2|	3.8|0.3224 
+
 ###### Petal LengthSpecies|Mean|Min|Max|StDev
 |---|---|---|---|---|
-SIris-setosa|	1.464|	1	|1.9|0.1735
- Iris-versicolor|	4.26	|3	|5.1|0.4699
+Iris-setosa|	1.464|	1	|1.9|0.1735
+Iris-versicolor|	4.26	|3	|5.1|0.4699
 Iris-virginica	|5.552|	4.5|	6.9|0.5518
- .###### Petal Width
-iSpecies|Mean|Min|Max|StDev|
+
+###### Petal Width
+Species|Mean|Min|Max|StDev|
 ---|---|---|---|---|
-eIris-setosa|	0.244|	0.1|	0.6|0.1072
- Iris-versicolor|	1.326|	1	|1.8|0.1977
-cIris-virginica|	2.026	|1.4|	2.5|0.2746
+Iris-setosa|	0.244|	0.1|	0.6|0.1072
+Iris-versicolor|	1.326|	1	|1.8|0.1977
+Iris-virginica|	2.026	|1.4|	2.5|0.2746
 
 A As a first pass review of the data output one can make certain observations to prompt further rview
  
