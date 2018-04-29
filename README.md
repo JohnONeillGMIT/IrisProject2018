@@ -55,8 +55,7 @@ first.py  pulled the Irsidata set from a csv file and calculated out the Mean,Mi
  
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
  
-##### Sepal Length
-PSpecies|Mean|Min|Max|StDev|
+##### Sepal LengthPSpecies|Mean|Min|Max|StDev|
 ---|---|---|---|---|
 Iris-setosa|	5.006|	4.3	|5.8|0.3524
 Iris-versicolor|	5.936|	4.9|	7|0.5161
@@ -66,22 +65,21 @@ Iris-virginica|	6.588|	4.9	|7.9|0.6358
 Species|Mean|Min|Max|StDev|
 ---|---|---|---|---|
 Iris-setosa|	3.418|	2.3|	4.4|0.3810
-Iris-versicolor|	2.77|	2	|3.4|0.3137
+mIris-versicolor|	2.77|	2	|3.4|0.3137
 Iris-virginica	|2.974|	2.2|	3.8|0.3224
 
 ###### Petal Length
-Species|Mean|Min|Max|StDev|
----|---|---|---|---|
+Species|Mean|Min|Max|StDev|---|---|---|---|---|
 Iris-setosa|	1.464|	1	|1.9|0.1735
 Iris-versicolor|	4.26	|3	|5.1|0.4699
 Iris-virginica	|5.552|	4.5|	6.9|0.5518
 
 ###### Petal Width
-Species|Mean|Min|Max|StDev|
+iSpecies|Mean|Min|Max|StDev|
 ---|---|---|---|---|
 Iris-setosa|	0.244|	0.1|	0.6|0.1072
 Iris-versicolor|	1.326|	1	|1.8|0.1977
-Iris-virginica|	2.026	|1.4|	2.5|0.2746
+cIris-virginica|	2.026	|1.4|	2.5|0.2746
 
 A As a first pass review of the data output one can make certain observations to prompt further rview
 
@@ -102,7 +100,7 @@ Hoey (footnote) (Statistical Analysis of the Iris Flower Dataset, University of 
 http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 His data clearly demonstrates this
 
-Linke t graphs
+![Link to Hoeys graphs](Hoey.png)
 
 Sepal length :virginica has the longest sepals,versicolor the medium length and setosa has the shortest
 Sepal width:setosa has the widest sepals,virginica the medium and versicolor has the narrowest of sepals 
