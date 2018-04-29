@@ -1,4 +1,4 @@
-## IrisProject2018 Programming and Scripting Module Project
+# IrisProject2018 Programming and Scripting Module Project
 
 ## Introduction
 
@@ -29,8 +29,12 @@ https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-se
 3. Species ("Outputs") = 3 ...setosa, versicolor, virginica
 
 
+Source data was verified for accuracy from the Iris.csv input file.
+![Sample of verified output]()
+
+
 ### Inital Findings/Observations.
- ![First Statistics file](Simplemeasuresr4.py)  pulled the Iris dataset from a csv file and calculated out the Mean, Min, Max, and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is [here](Output_of_SimpleMeasure_code)
+[First Statistics file](Simplemeasuresr4.py)  pulled the Iris dataset from a csv file and calculated out the Mean, Min, Max, and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is [here](Output_of_SimpleMeasure_code)
 
 
 ##### Table 1:Measures of Variables
@@ -40,7 +44,7 @@ https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-se
  
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
 
-![Summary Output file](Summary.txt)  of the ![Python script](Applying_pandas_on_Iris_Table.py)
+[Summary Output file](Summary.txt)  of the [Python script](Applying_pandas_on_Iris_Table.py)
  
  
 ##### Sepal Length
