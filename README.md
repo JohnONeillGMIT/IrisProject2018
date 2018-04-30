@@ -31,7 +31,7 @@ Source data was verified for accuracy from the Iris.csv input file.
 
   
 ## Inital Findings/Observations.
-[First Statistics file](Simplemeasuresr4.py)  pulled the Iris dataset from a csv file and calculated out the Mean, Min, Max, and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is [here](Output_of_SimpleMeasure_code.txt)
+[First Statistics file](SimpleMeasuresr4.py)  pulled the Iris dataset from a csv file and calculated out the Mean, Min, Max, and Standard Deviations for each of the 4 variables at a top level and for each of the Species. The output file for this is [here](Output_of_SimpleMeasure_code.txt)
  
 
 ### Table 1:Measures of Variables
