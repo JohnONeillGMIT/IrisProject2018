@@ -40,7 +40,7 @@ Source data was verified for accuracy from the Iris.csv input file.
 
  
 After discovering the Numpy & Panda modules, I was able to pull the required data in a much cleaner manner. 
-[Summary Output file](Summary.txt)  of the [Python script](Applying_pandas_on_Iris_Table.py)  
+[Summary Output file](Summary.csv)  of the [Python script](Applying_pandas_on_Iris_Table.py)  
  
 ##### Sepal Length
 Species|Mean|Min|Max|StDev|
