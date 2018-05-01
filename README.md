@@ -86,7 +86,7 @@ Data Visualisation is very important in that it is used continuously to explore 
 ![Image of Petal Scatter](Petal_Length_Width.png)
  
  
-Hoey's data reproduced here clearly demonstrates this also. ![Statistical Analysis of the Iris Flower Dataset, University of Massachusetts At Lowell](http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf)
+Hoey's data reproduced here clearly demonstrates this also. http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 
 
 ![Link to Hoeys graphs](Hoey.PNG)
